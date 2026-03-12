@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dancing - 六爻八字联合预测</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔮 Dancing</h1>
+            <p class="subtitle">六爻八字联合预测系统</p>
+        </header>
+
+        <main>
+            <!-- 八字输入区域 -->
+            <section class="bazi-panel">
+                <h2>📅 八字信息</h2>
+                <div class="input-group">
+                    <div class="form-row">
+                        <label>出生时间：</label>
+                        <input type="datetime-local" id="birthDatetime" />
+                        <button onclick="useBirthNow()">使用当前时间</button>
+                    </div>
+                    <div class="form-row">
+                        <label>性别：</label>
+                        <select id="gender">
+                            <option value="男">男</option>
+                            <option value="女">女</option>
+                        </select>
+                    </div>
+                    <button class="secondary-btn" onclick="calculateBazi()">计算八字</button>
+                </div>
+                <div id="baziDisplay" class="bazi-display hidden">
+                    <div class="bazi-pillars" id="baziPillars"></div>
+                    <div class="bazi-details" id="baziDetails"></div>
+                </div>
+            </section>
+
+            <!-- 起卦区域 -->
+            <section class="divination-panel">
+                <h2>🎯 起卦</h2>
+                <div class="input-group">
+                    <div class="form-row">
+                        <label>起卦时间：</label>
+                        <input type="datetime-local" id="datetime" />
+                        <button onclick="useNow()">使用当前时间</button>
+                    </div>
+                    <div class="form-row">
+                        <label>问事类型：</label>
+                        <select id="questionType">
+                            <option value="财运">财运</option>
+                            <option value="事业">事业</option>
+                            <option value="婚姻">婚姻</option>
+                            <option value="健康">健康</option>
+                            <option value="诉讼">诉讼</option>
+                        </select>
+                    </div>
+                    <div class="form-row checkbox-row">
+                        <label>
+                            <input type="checkbox" id="useBazi" checked />
+                            结合八字分析
+                        </label>
+                    </div>
+                    <button class="primary-btn" onclick="generateHexagram()">起卦</button>
+                </div>
+            </section>
+
+            <!-- 联合分析结果 -->
+            <section id="combinedDisplay" class="combined-display hidden">
+                <h2>🔮 联合分析</h2>
+                <div class="combined-result" id="combinedResult"></div>
+            </section>
+
+            <!-- 八字展示 -->
+            <section id="baziResultDisplay" class="bazi-result-display hidden">
+                <h2>📅 八字命盘</h2>
+                <div class="bazi-full" id="baziFull"></div>
+            </section>
+
+            <!-- 卦象展示 -->
+            <section id="hexagramDisplay" class="hexagram-display hidden">
+                <h2>📜 卦象</h2>
+                <div class="hexagram-container">
+                    <div class="hexagram-main">
+                        <div class="trigram-info">
+                            <span class="trigram-symbol" id="upperSymbol"></span>
+                            <span class="trigram-name" id="upperName"></span>
+                        </div>
+                        <div class="hexagram-lines" id="hexagramLines"></div>
+                        <div class="trigram-info">
+                            <span class="trigram-symbol" id="lowerSymbol"></span>
+                            <span class="trigram-name" id="lowerName"></span>
+                        </div>
+                        <div class="hexagram-name" id="hexagramName"></div>
+                    </div>
+                    
+                    <div class="hexagram-details">
+                        <div class="detail-card">
+                            <h4>本卦</h4>
+                            <p id="mainHexagram"></p>
+                        </div>
+                        <div class="detail-card">
+                            <h4>变卦</h4>
+                            <p id="changedHexagram"></p>
+                        </div>
+                        <div class="detail-card">
+                            <h4>世应</h4>
+                            <p id="shiYing"></p>
+                        </div>
+                        <div class="detail-card">
+                            <h4>用神</h4>
+                            <p id="deityInfo"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AI 解读 -->
+            <section id="predictionDisplay" class="prediction-display hidden">
+                <h2>🤖 AI 解读</h2>
+                <div class="prediction-cards">
+                    <div class="prediction-card fortune">
+                        <h4>吉凶预测</h4>
+                        <div class="fortune-level" id="fortuneLevel"></div>
+                        <div class="probability-bars" id="fortuneBars"></div>
+                    </div>
+                    <div class="prediction-card time">
+                        <h4>时间窗口</h4>
+                        <div class="time-window" id="timeWindow"></div>
+                        <div class="probability-bars" id="timeBars"></div>
+                    </div>
+                </div>
+                <div id="predictionNote" class="prediction-note"></div>
+            </section>
+
+            <!-- 相似案例 -->
+            <section id="similarCases" class="similar-cases hidden">
+                <h2>📚 相似案例</h2>
+                <div class="cases-list" id="casesList"></div>
+            </section>
+
+            <!-- 12小时趋势分析 -->
+            <section id="trendDisplay" class="trend-display hidden">
+                <h2>📈 12小时趋势分析</h2>
+                <div class="trend-result" id="trendResult"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Dancing - 六爻八字联合预测系统 · 概念验证版本</p>
+        </footer>
+    </div>
+
+    <script>
+        // 页面加载时初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            useNow();
+            useBirthNow();
+            loadStats();
+        });
+
+        function useNow() {
+            const now = new Date();
+            now.setMinutes(now.getMinutes() - now.getTimezoneOffset());
+            document.getElementById('datetime').value = now.toISOString().slice(0, 16);
+        }
+
+        function useBirthNow() {
+            // 默认使用1990年1月1日
+            document.getElementById('birthDatetime').value = '1990-01-01T12:00';
+        }
+
+        async function calculateBazi() {
+            const datetime = document.getElementById('birthDatetime').value;
+            if (!datetime) {
+                alert('请选择出生时间');
+                return;
+            }
+            
+            const dt = new Date(datetime);
+            const gender = document.getElementById('gender').value;
+            
+            try {
+                const response = await fetch('/api/bazi', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        year: dt.getFullYear(),
+                        month: dt.getMonth() + 1,
+                        day: dt.getDate(),
+                        hour: dt.getHours(),
+                        gender: gender
+                    })
+                });
+                
+                const data = await response.json();
+                if (data.success) {
+                    displayBazi(data.bazi);
+                }
+            } catch (error) {
+                console.error('八字计算失败:', error);
+            }
+        }
+
+        function displayBazi(bazi) {
+            const display = document.getElementById('baziDisplay');
+            display.classList.remove('hidden');
+            
+            // 四柱展示（/api/bazi 接口返回的是对象格式）
+            const pillarsDiv = document.getElementById('baziPillars');
+            pillarsDiv.innerHTML = `
+                <div class="pillar-card">
+                    <div class="pillar-title">年柱</div>
+                    <div class="pillar-gan">${bazi.四柱.年柱.天干}</div>
+                    <div class="pillar-zhi">${bazi.四柱.年柱.地支}</div>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-title">月柱</div>
+                    <div class="pillar-gan">${bazi.四柱.月柱.天干}</div>
+                    <div class="pillar-zhi">${bazi.四柱.月柱.地支}</div>
+                </div>
+                <div class="pillar-card day-pillar">
+                    <div class="pillar-title">日柱</div>
+                    <div class="pillar-gan">${bazi.四柱.日柱.天干}</div>
+                    <div class="pillar-zhi">${bazi.四柱.日柱.地支}</div>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-title">时柱</div>
+                    <div class="pillar-gan">${bazi.四柱.时柱.天干}</div>
+                    <div class="pillar-zhi">${bazi.四柱.时柱.地支}</div>
+                </div>
+            `;
+            
+            // 详细信息
+            const detailsDiv = document.getElementById('baziDetails');
+            const wuxingHtml = Object.entries(bazi.五行统计)
+                .map(([wx, count]) => `<span class="wuxing-tag ${wx}">${wx}:${count}</span>`)
+                .join('');
+            
+            // /api/bazi 接口使用 旺衰分析.旺衰判断 和 旺衰分析.日主五行
+            const wangshuai = bazi.旺衰分析 ? bazi.旺衰分析.旺衰判断 : bazi.旺衰;
+            const rizhuWuxing = bazi.旺衰分析 ? bazi.旺衰分析.日主五行 : bazi.日主五行;
+            
+            detailsDiv.innerHTML = `
+                <div class="bazi-info-row">
+                    <span class="label">日主：</span>
+                    <span class="value">${bazi.日干} (${rizhuWuxing}) - ${wangshuai}</span>
+                </div>
+                <div class="bazi-info-row">
+                    <span class="label">五行：</span>
+                    <span class="wuxing-tags">${wuxingHtml}</span>
+                </div>
+            `;
+        }
+
+        async function generateHexagram() {
+            const datetime = document.getElementById('datetime').value;
+            const questionType = document.getElementById('questionType').value;
+            const useBazi = document.getElementById('useBazi').checked;
+            
+            const btn = document.querySelector('.primary-btn');
+            btn.disabled = true;
+            btn.textContent = '起卦中...';
+
+            try {
+                let response;
+                
+                if (useBazi) {
+                    // 联合分析
+                    const birthDt = new Date(document.getElementById('birthDatetime').value);
+                    const gender = document.getElementById('gender').value;
+                    
+                    response = await fetch('/api/divine_with_bazi', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            datetime,
+                            question_type: questionType,
+                            birth: {
+                                year: birthDt.getFullYear(),
+                                month: birthDt.getMonth() + 1,
+                                day: birthDt.getDate(),
+                                hour: birthDt.getHours()
+                            },
+                            gender
+                        })
+                    });
+                } else {
+                    // 纯六爻
+                    response = await fetch('/api/divine', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ datetime, question_type: questionType })
+                    });
+                }
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    if (useBazi && data.combined_analysis) {
+                        displayCombinedAnalysis(data.combined_analysis);
+                        displayBaziFull(data.bazi);
+                    }
+                    displayHexagram(data);
+                    displayPrediction(data.prediction);
+                    if (data.similar_cases) {
+                        displaySimilarCases(data.similar_cases);
+                    }
+                    
+                    // 获取12小时趋势分析
+                    await loadTrendAnalysis(datetime, questionType, useBazi);
+                }
+            } catch (error) {
+                console.error('起卦失败:', error);
+                alert('起卦失败，请重试');
+            } finally {
+                btn.disabled = false;
+                btn.textContent = '起卦';
+            }
+        }
+
+        function displayCombinedAnalysis(analysis) {
+            const section = document.getElementById('combinedDisplay');
+            section.classList.remove('hidden');
+            
+            const resultDiv = document.getElementById('combinedResult');
+            
+            // 生成通俗易懂的解读
+            const directionText = getDirectionText(analysis.综合评分.等级, analysis.综合评分.总分);
+            const actionGuide = getActionGuide(analysis.综合评分.等级);
+            
+            resultDiv.innerHTML = `
+                <div class="combined-score ${getScoreClass(analysis.综合评分.总分)}">
+                    <div class="score-value">${analysis.综合评分.总分.toFixed(0)}</div>
+                    <div class="score-level">${analysis.综合评分.等级}</div>
+                </div>
+                
+                <div class="direction-box ${getScoreClass(analysis.综合评分.总分)}">
+                    <h3>🎯 方向指引</h3>
+                    <p class="direction-text">${directionText}</p>
+                </div>
+                
+                <div class="action-guide">
+                    <h4>📋 行动建议</h4>
+                    <div class="action-content">${actionGuide}</div>
+                </div>
+                
+                <div class="combined-judgment">${analysis.综合判断}</div>
+                
+                <div class="analysis-breakdown">
+                    <div class="breakdown-item">
+                        <span>八字支持度</span>
+                        <span class="badge ${analysis.八字对用神支持度.等级}">${analysis.八字对用神支持度.等级}</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>卦象吉凶度</span>
+                        <span class="badge ${analysis.卦象吉凶度.等级}">${analysis.卦象吉凶度.等级}</span>
+                    </div>
+                    <div class="breakdown-item">
+                        <span>日主旺衰</span>
+                        <span class="badge">${analysis.日主旺衰}</span>
+                    </div>
+                </div>
+                
+                <div class="prediction-note-box">
+                    <h4>💡 解读说明</h4>
+                    <p><strong>联合解读：</strong>结合您的八字命理和六爻卦象，分析个人运势与这件事的匹配程度。分数越高，说明这件事越适合您当前的状态。</p>
+                    <p><strong>AI分析：</strong>基于历史数据统计，显示相似卦象的应验概率。反映的是"这件事本身"的吉凶趋势。</p>
+                    <p class="highlight">两者结合看：联合解读看"您能不能扛得住"，AI分析看"这件事本身顺不顺"。</p>
+                </div>
+            `;
+        }
+        
+        function getDirectionText(level, score) {
+            const directions = {
+                '大吉': '天时地利人和，这是您大展宏图的好时机！个人运势强劲，此事也顺风顺水，成功概率极高。',
+                '吉': '运势不错，可以积极推进。虽然可能遇到小波折，但您的能力足以应对，最终能达成目标。',
+                '平': '吉凶参半，需要谨慎权衡。此事没有明显的优势，但也不至于大败，建议稳扎稳打，不要冒进。',
+                '凶': '时机不利，阻碍较多。您的运势或此事的时机不太理想，建议暂缓或调整策略，避免硬碰硬。',
+                '大凶': '诸多不顺，暂避锋芒。当前不是推进此事的好时机，强行行动可能带来较大损失，建议另寻他路。'
+            };
+            return directions[level] || '运势平稳，顺其自然即可。';
+        }
+        
+        function getActionGuide(level) {
+            const guides = {
+                '大吉': `
+                    <ul>
+                        <li><strong>立即行动：</strong>不要犹豫，把握这个黄金时机</li>
+                        <li><strong>大胆投入：</strong>可以适当加大资源投入</li>
+                        <li><strong>主动出击：</strong>积极争取，成功率很高</li>
+                        <li><strong>注意：</strong>虽好但不可骄傲，保持谦逊</li>
+                    </ul>
+                `,
+                '吉': `
+                    <ul>
+                        <li><strong>稳步推进：</strong>按计划执行，不要急躁</li>
+                        <li><strong>适度投入：</strong>可以投入，但留有余地</li>
+                        <li><strong>灵活应对：</strong>遇到小问题及时调整</li>
+                        <li><strong>注意：</strong>保持耐心，结果会来的</li>
+                    </ul>
+                `,
+                '平': `
+                    <ul>
+                        <li><strong>观望为主：</strong>不要急于做决定</li>
+                        <li><strong>控制风险：</strong>投入要保守，做好止损准备</li>
+                        <li><strong>多方考虑：</strong>收集更多信息后再行动</li>
+                        <li><strong>注意：</strong>这是一个需要等待的时机</li>
+                    </ul>
+                `,
+                '凶': `
+                    <ul>
+                        <li><strong>暂缓行动：</strong>现在不是好时机，等等再说</li>
+                        <li><strong>减少投入：</strong>如果必须做，控制损失范围</li>
+                        <li><strong>寻求帮助：</strong>借助外力或贵人相助</li>
+                        <li><strong>注意：</strong>保存实力，等待转机</li>
+                    </ul>
+                `,
+                '大凶': `
+                    <ul>
+                        <li><strong>果断放弃：</strong>及时止损，不要恋战</li>
+                        <li><strong>另寻出路：</strong>寻找替代方案或时机</li>
+                        <li><strong>保守为上：</strong>守住现有，不图扩张</li>
+                        <li><strong>注意：</strong>这不是您的错，是时机不对</li>
+                    </ul>
+                `
+            };
+            return guides[level] || '<ul><li>保持现状，观察变化</li></ul>';
+        }
+
+        function getScoreClass(score) {
+            if (score >= 75) return 'excellent';
+            if (score >= 60) return 'good';
+            if (score >= 45) return 'neutral';
+            if (score >= 30) return 'bad';
+            return 'terrible';
+        }
+
+        function displayBaziFull(bazi) {
+            const section = document.getElementById('baziResultDisplay');
+            section.classList.remove('hidden');
+            
+            const container = document.getElementById('baziFull');
+            
+            // 大运
+            const dayunHtml = bazi.大运.map(dy => 
+                `<span class="dayun-item">${dy.ganzhi} (${dy.start_age}-${dy.end_age}岁)</span>`
+            ).join('');
+            
+            // 解析四柱（格式：天干+地支，如"庚午"）
+            const nianZhu = bazi.四柱.年柱;
+            const yueZhu = bazi.四柱.月柱;
+            const riZhu = bazi.四柱.日柱;
+            const shiZhu = bazi.四柱.时柱;
+            
+            container.innerHTML = `
+                <div class="bazi-pillars-full">
+                    <div class="pillar">
+                        <div class="label">年柱</div>
+                        <div class="gan">${nianZhu[0]}</div>
+                        <div class="zhi">${nianZhu[1]}</div>
+                    </div>
+                    <div class="pillar">
+                        <div class="label">月柱</div>
+                        <div class="gan">${yueZhu[0]}</div>
+                        <div class="zhi">${yueZhu[1]}</div>
+                    </div>
+                    <div class="pillar day">
+                        <div class="label">日柱</div>
+                        <div class="gan">${riZhu[0]}</div>
+                        <div class="zhi">${riZhu[1]}</div>
+                    </div>
+                    <div class="pillar">
+                        <div class="label">时柱</div>
+                        <div class="gan">${shiZhu[0]}</div>
+                        <div class="zhi">${shiZhu[1]}</div>
+                    </div>
+                </div>
+                <div class="bazi-info">
+                    <p><strong>日主：</strong>${bazi.日干} (${bazi.日主五行}) - ${bazi.旺衰}</p>
+                    <p><strong>大运：</strong>${dayunHtml}</p>
+                </div>
+            `;
+        }
+
+        function displayHexagram(data) {
+            const section = document.getElementById('hexagramDisplay');
+            section.classList.remove('hidden');
+            
+            const hex = data.hexagram;
+            const analysis = data.liuyao || data.analysis;
+            
+            document.getElementById('hexagramName').textContent = hex.name;
+            document.getElementById('upperSymbol').textContent = hex.upper_symbol;
+            document.getElementById('upperName').textContent = hex.upper_trigram;
+            document.getElementById('lowerSymbol').textContent = hex.lower_symbol;
+            document.getElementById('lowerName').textContent = hex.lower_trigram;
+            
+            const linesContainer = document.getElementById('hexagramLines');
+            linesContainer.innerHTML = '';
+            
+            for (let i = 5; i >= 0; i--) {
+                const isYang = hex.lines[i] === 1;
+                const isMoving = hex.moving_lines.includes(i + 1);
+                
+                const lineDiv = document.createElement('div');
+                lineDiv.className = `yao-line ${isYang ? 'yang' : 'yin'} ${isMoving ? 'moving' : ''}`;
+                lineDiv.innerHTML = isYang 
+                    ? '<div class="yang-bar"></div>'
+                    : '<div class="yin-left"></div><div class="yin-right"></div>';
+                
+                if (isMoving) {
+                    const label = document.createElement('span');
+                    label.className = 'moving-label';
+                    label.textContent = '动';
+                    lineDiv.appendChild(label);
+                }
+                
+                const position = document.createElement('span');
+                position.className = 'yao-position';
+                position.textContent = ['初', '二', '三', '四', '五', '上'][5-i] + '爻';
+                lineDiv.appendChild(position);
+                
+                linesContainer.appendChild(lineDiv);
+            }
+            
+            document.getElementById('mainHexagram').textContent = 
+                `${hex.name} (${hex.upper_trigram}上${hex.lower_trigram}下)`;
+            document.getElementById('changedHexagram').textContent = 
+                `${data.changed_hexagram.name} (${data.changed_hexagram.upper_trigram}上${data.changed_hexagram.lower_trigram}下)`;
+            document.getElementById('shiYing').textContent = 
+                `世爻：第${analysis['世应']['世爻']}爻，应爻：第${analysis['世应']['应爻']}爻`;
+            document.getElementById('deityInfo').textContent = 
+                `${analysis['用神']['用神类型']} (${analysis['用神']['用神五行']}) - ${analysis['用神']['五行关系']}`;
+        }
+
+        function displayPrediction(prediction) {
+            const section = document.getElementById('predictionDisplay');
+            section.classList.remove('hidden');
+            
+            document.getElementById('fortuneLevel').textContent = prediction.fortune_level;
+            document.getElementById('fortuneLevel').className = `fortune-level ${getFortuneClass(prediction.fortune_level)}`;
+            
+            const fortuneBars = document.getElementById('fortuneBars');
+            fortuneBars.innerHTML = '';
+            Object.entries(prediction.fortune_probabilities)
+                .sort((a, b) => b[1] - a[1])
+                .forEach(([level, prob]) => {
+                    fortuneBars.appendChild(createProbabilityBar(level, prob, getFortuneClass(level)));
+                });
+            
+            document.getElementById('timeWindow').textContent = prediction.time_window;
+            
+            const timeBars = document.getElementById('timeBars');
+            timeBars.innerHTML = '';
+            Object.entries(prediction.time_probabilities)
+                .sort((a, b) => b[1] - a[1])
+                .forEach(([window, prob]) => {
+                    timeBars.appendChild(createProbabilityBar(window, prob, 'time'));
+                });
+            
+            const note = document.getElementById('predictionNote');
+            if (prediction.note) {
+                note.textContent = prediction.note;
+                note.style.display = 'block';
+            } else {
+                note.style.display = 'none';
+            }
+        }
+
+        function createProbabilityBar(label, probability, className) {
+            const div = document.createElement('div');
+            div.className = 'prob-bar';
+            div.innerHTML = `
+                <span class="prob-label">${label}</span>
+                <div class="prob-track">
+                    <div class="prob-fill ${className}" style="width: ${(probability * 100).toFixed(1)}%"></div>
+                </div>
+                <span class="prob-value">${(probability * 100).toFixed(1)}%</span>
+            `;
+            return div;
+        }
+
+        function getFortuneClass(level) {
+            const map = { '大吉': 'great', '吉': 'good', '平': 'neutral', '凶': 'bad', '大凶': 'terrible' };
+            return map[level] || 'neutral';
+        }
+
+        function displaySimilarCases(cases) {
+            const section = document.getElementById('similarCases');
+            section.classList.remove('hidden');
+            
+            const container = document.getElementById('casesList');
+            container.innerHTML = '';
+            
+            cases.forEach(c => {
+                const card = document.createElement('div');
+                card.className = 'case-card';
+                card.innerHTML = `
+                    <div class="case-header">
+                        <span class="case-id">#${c.case_id}</span>
+                        <span class="case-hexagram">${c.hexagram_name}</span>
+                        <span class="case-type">${c.question_type}</span>
+                    </div>
+                    <div class="case-body">
+                        <p><strong>吉凶：</strong><span class="fortune-${getFortuneClass(c.fortune_level)}">${c.fortune_level}</span></p>
+                        <p><strong>时间：</strong>${c.time_window}</p>
+                        <p><strong>批语：</strong>${c.comment}</p>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        async function loadTrendAnalysis(datetime, questionType, useBazi) {
+            try {
+                const requestBody = {
+                    datetime,
+                    question_type: questionType
+                };
+                
+                if (useBazi) {
+                    const birthDt = new Date(document.getElementById('birthDatetime').value);
+                    const gender = document.getElementById('gender').value;
+                    requestBody.birth = {
+                        year: birthDt.getFullYear(),
+                        month: birthDt.getMonth() + 1,
+                        day: birthDt.getDate(),
+                        hour: birthDt.getHours()
+                    };
+                    requestBody.gender = gender;
+                }
+                
+                const response = await fetch('/api/trend', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(requestBody)
+                });
+                
+                const data = await response.json();
+                if (data.success) {
+                    displayTrendAnalysis(data.trend);
+                }
+            } catch (error) {
+                console.error('趋势分析加载失败:', error);
+            }
+        }
+        
+        function displayTrendAnalysis(trend) {
+            const section = document.getElementById('trendDisplay');
+            section.classList.remove('hidden');
+            
+            const container = document.getElementById('trendResult');
+            
+            // 生成趋势图表
+            const trendChart = generateTrendChart(trend.hourly_readings);
+            
+            // 最佳时机
+            const bestWindowsHtml = trend.best_windows.map((w, i) => 
+                `<div class="best-window">
+                    <span class="window-rank">${i + 1}</span>
+                    <span class="window-time">${w.start} - ${w.end}</span>
+                    <span class="window-duration">${w.duration}小时</span>
+                </div>`
+            ).join('');
+            
+            // 建议
+            const recommendationsHtml = trend.recommendations.map(r => 
+                `<div class="trend-recommendation">${r}</div>`
+            ).join('');
+            
+            container.innerHTML = `
+                <div class="trend-summary">
+                    <div class="trend-item">
+                        <span class="trend-label">整体运势</span>
+                        <span class="trend-value ${getScoreClassByFortune(trend.trend_analysis.overall_fortune)}">${trend.trend_analysis.overall_fortune}</span>
+                    </div>
+                    <div class="trend-item">
+                        <span class="trend-label">趋势方向</span>
+                        <span class="trend-value">${trend.trend_analysis.trend_direction}</span>
+                    </div>
+                    <div class="trend-item">
+                        <span class="trend-label">稳定性</span>
+                        <span class="trend-value">${trend.trend_analysis.stability}</span>
+                    </div>
+                </div>
+                
+                <div class="trend-chart-container">
+                    <h4>⏰ 每小时运势变化</h4>
+                    <div class="trend-chart">${trendChart}</div>
+                </div>
+                
+                <div class="best-windows">
+                    <h4>🎯 最佳时机窗口</h4>
+                    ${bestWindowsHtml || '<p class="no-window">暂无连续吉时窗口</p>'}
+                </div>
+                
+                <div class="trend-recommendations">
+                    <h4>💡 趋势建议</h4>
+                    ${recommendationsHtml}
+                </div>
+            `;
+        }
+        
+        function generateTrendChart(hourlyReadings) {
+            const fortuneColors = {
+                '大吉': '#4ade80',
+                '吉': '#22d3ee',
+                '平': '#fbbf24',
+                '凶': '#fb923c',
+                '大凶': '#f87171'
+            };
+            
+            return hourlyReadings.map(r => {
+                const color = fortuneColors[r.fortune_level] || '#888';
+                const height = (r.fortune_score / 4 * 100).toFixed(0);
+                return `
+                    <div class="trend-bar" title="${r.time}: ${r.fortune_level}">
+                        <div class="trend-bar-fill" style="height: ${height}%; background: ${color};"></div>
+                        <span class="trend-bar-time">${r.time}</span>
+                    </div>
+                `;
+            }).join('');
+        }
+        
+        function getScoreClassByFortune(fortune) {
+            const map = { '大吉': 'excellent', '吉': 'good', '平': 'neutral', '凶': 'bad', '大凶': 'terrible' };
+            return map[fortune] || 'neutral';
+        }
+        
+        // 页面加载时不自动加载统计
+        document.addEventListener('DOMContentLoaded', () => {
+            useNow();
+            useBirthNow();
+        });
+    </script>
+</body>
+</html>
