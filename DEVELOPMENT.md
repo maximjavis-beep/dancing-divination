@@ -170,9 +170,46 @@ print(bazi)
 
 ## 性能优化
 
-- 模型预测使用缓存
-- 案例数据按需加载
-- 前端使用懒加载
+### 已实现的优化
+
+1. **模型预测缓存** (`model/performance_utils.py`)
+   - `PredictionCache` 类提供内存+磁盘两级缓存
+   - 自动缓存预测结果，减少重复计算
+   - 使用案例特征哈希作为缓存键
+
+2. **案例数据懒加载** (`model/performance_utils.py`)
+   - `LazyDataLoader` 类按需加载案例数据
+   - 支持按问事类型和卦名快速筛选
+   - 首次访问时才加载，减少启动时间
+
+3. **模型训练管理** (`model/train_model.py`)
+   - 一键训练、验证、查看模型信息
+   - 支持自动训练（模型不存在时自动训练）
+   - 命令行工具：`python model/train_model.py [train|validate|info|auto]`
+
+4. **数据验证修复** (`data/validate_and_fix.py`)
+   - 自动检查案例数据完整性
+   - 修复古籍案例缺失的 `special_pattern` 字段
+   - 确保数据格式一致性
+
+### 使用方法
+
+```bash
+# 验证并修复数据
+python data/validate_and_fix.py
+
+# 训练模型（如果不存在则自动训练）
+python model/train_model.py auto
+
+# 强制重新训练
+python model/train_model.py train --force
+
+# 验证模型
+python model/train_model.py validate
+
+# 查看模型信息
+python model/train_model.py info
+```
 
 ## 贡献代码
 

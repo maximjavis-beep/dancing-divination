@@ -28,7 +28,29 @@ pip install -r requirements.txt
 
 ### 本地运行
 
+#### 快速启动（推荐）
+
 ```bash
+./start.sh
+```
+
+脚本会自动：
+- 检查并创建虚拟环境
+- 安装依赖
+- 验证并修复数据
+- 训练模型（如不存在）
+- 启动服务
+
+#### 手动启动
+
+```bash
+# 1. 验证数据
+python data/validate_and_fix.py
+
+# 2. 训练模型（如不存在）
+python model/train_model.py auto
+
+# 3. 启动服务
 python api/index.py
 ```
 
@@ -56,19 +78,23 @@ Dancing/
 │   └── baihua.py             # 白话解读模块
 ├── model/                    # AI预测模型
 │   ├── gbm_predictor.py      # Gradient Boosting预测器
+│   ├── train_model.py        # 模型训练管理工具 ⭐
+│   ├── performance_utils.py  # 性能优化工具 ⭐
 │   ├── ensemble.py           # 集成学习
 │   ├── rule_engine.py        # 规则引擎
 │   ├── dnn_predictor.py      # 深度学习预测器
 │   ├── case_matcher.py       # 案例匹配
 │   └── cross_validate.py     # 交叉验证
 ├── data/                     # 数据层
-│   ├── cases.json            # 案例数据库
-│   ├── gudian_cases.json     # 古籍案例
+│   ├── cases.json            # 案例数据库 (500个)
+│   ├── gudian_cases.json     # 古籍案例 (2000个)
+│   ├── validate_and_fix.py   # 数据验证修复工具 ⭐
 │   └── generate_cases.py     # 案例生成工具
 ├── templates/
 │   └── index.html            # 前端页面
 ├── static/
 │   └── style.css             # 样式文件
+├── start.sh                  # 一键启动脚本 ⭐
 ├── requirements.txt          # Python依赖
 └── vercel.json               # Vercel部署配置
 ```
@@ -187,13 +213,15 @@ GET /api/stats
 
 - 财运
 - 事业
-- 婚姻
+- 爱情
 - 健康
 - 诉讼
 
 ## 📝 开发计划
 
-- [ ] 模型训练脚本优化
+- [x] 模型训练脚本优化 ✅
+- [x] 数据验证和修复工具 ✅
+- [x] 性能优化（缓存、懒加载）✅
 - [ ] 增加更多古籍案例
 - [ ] 支持更多问事类型
 - [ ] 移动端适配优化

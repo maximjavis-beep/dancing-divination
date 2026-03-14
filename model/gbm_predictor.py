@@ -277,7 +277,7 @@ class GBMHexagramPredictor:
         self.TIME_WINDOWS_3 = ['近期', '中期', '远期']
         
         # 保存特征名
-        self.feature_names = [f'f{i}' for i in range(X.shape[1])]
+        self.feature_names = [f'f{i}' for i in range(X_fortune.shape[1])]
         
         # 保存模型
         self.save_model()

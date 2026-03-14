@@ -14,6 +14,8 @@ from liuyao.trend_analyzer import analyze_trend
 from liuyao.baihua import generate_full_baihua, get_hexagram_baihua
 
 from model.gbm_predictor import GBMHexagramPredictor
+from model.enhanced_gbm_predictor import EnhancedGBMPredictor
+from model.performance_utils import get_cache, get_loader, cached_predict
 
 app = Flask(__name__, 
     template_folder=os.path.join(os.path.dirname(__file__), '..', 'templates'),
@@ -22,28 +24,24 @@ app = Flask(__name__,
 
 # 初始化引擎和模型
 engine = LiuYaoEngine()
-model = GBMHexagramPredictor()
 
-# 加载案例数据
-base_path = os.path.join(os.path.dirname(__file__), '..')
-data_path = os.path.join(base_path, 'data', 'cases.json')
-with open(data_path, 'r', encoding='utf-8') as f:
-    cases = json.load(f)
-
-# 加载古籍案例
-gudian_path = os.path.join(base_path, 'data', 'gudian_cases.json')
-if os.path.exists(gudian_path):
-    with open(gudian_path, 'r', encoding='utf-8') as f:
-        gudian_cases = json.load(f)
-    cases.extend(gudian_cases)
-
-# 尝试加载模型
-model_loaded = False
+# 优先使用增强版模型，如不存在则使用基础版
+model = EnhancedGBMPredictor()
 try:
     model.load_model()
-    model_loaded = True
-except:
-    pass
+    print("✅ 增强版模型加载成功")
+except FileNotFoundError:
+    print("⚠️ 增强版模型不存在，使用基础版模型")
+    model = GBMHexagramPredictor()
+    try:
+        model.load_model()
+    except:
+        pass
+
+# 使用懒加载数据加载器
+loader = get_loader()
+model_loaded = True
+print(f"✅ 模型加载成功，数据案例: {len(loader.all_cases)} 个")
 
 @app.route('/')
 def index():
@@ -253,8 +251,8 @@ def divine_with_bazi():
         }), 400
 
 def find_similar_cases(hexagram_name, question_type, limit=3):
-    """查找相似案例"""
-    matching = [c for c in cases if c['hexagram']['name'] == hexagram_name or c['question_type'] == question_type]
+    """查找相似案例 - 使用懒加载"""
+    matching = loader.get_cases_by_hexagram(hexagram_name) + loader.get_cases_by_type(question_type)
     
     if len(matching) < limit:
         matching = cases
