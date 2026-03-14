@@ -19,7 +19,7 @@ class TheoryBasedPredictor:
     """基于理论数据的预测器"""
     
     FORTUNE_LEVELS = ['大凶', '凶', '平', '吉', '大吉']
-    QUESTION_TYPES = ['财运', '事业', '婚姻', '健康', '诉讼']
+    QUESTION_TYPES = ['财运', '事业', '爱情', '健康', '诉讼']
     TIME_WINDOWS_3 = ['近期', '中期', '远期']
     
     def __init__(self, model_path=None):

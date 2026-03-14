@@ -194,7 +194,7 @@ class PredictorModel:
     """预测模型包装类"""
     
     FORTUNE_LEVELS = ['大吉', '吉', '平', '凶', '大凶']
-    QUESTION_TYPES = ['财运', '事业', '婚姻', '健康', '诉讼']
+    QUESTION_TYPES = ['财运', '事业', '爱情', '健康', '诉讼']
     TIME_WINDOWS = [
         '近期（3日内）',
         '短期（一周内）',

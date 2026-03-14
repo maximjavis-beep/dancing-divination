@@ -16,7 +16,7 @@ from liuyao.engine import LiuYaoEngine, TRIGRAMS, LIUCHONG_HEXAGRAMS, LIUHE_HEXA
 class TheoryBasedCaseGenerator:
     """基于六爻理论的案例生成器"""
     
-    QUESTION_TYPES = ['财运', '事业', '婚姻', '健康', '诉讼']
+    QUESTION_TYPES = ['财运', '事业', '爱情', '健康', '诉讼']
     FORTUNE_LEVELS = ['大吉', '吉', '平', '凶', '大凶']
     
     # 六十四卦传统吉凶（基于《周易》和六爻理论）
@@ -35,11 +35,11 @@ class TheoryBasedCaseGenerator:
         '兑为泽': 1,      # 喜悦之象，吉
         '泽水困': -2,     # 困穷之象，大凶
         '泽地萃': 1,      # 聚集之象，吉
-        '泽山咸': 2,      # 交感之象，大吉（婚姻吉）
+        '泽山咸': 2,      # 交感之象，大吉（爱情吉）
         '水山蹇': -1,     # 蹇难之象，凶
         '地山谦': 2,      # 谦虚之象，大吉
         '雷山小过': -1,   # 小有过越，凶
-        '雷泽归妹': -1,   # 嫁娶之象，凶（婚姻有变）
+        '雷泽归妹': -1,   # 嫁娶之象，凶（爱情有变）
         
         # 离宫
         '离为火': 0,      # 光明之象，平
@@ -112,7 +112,7 @@ class TheoryBasedCaseGenerator:
             '乾': 2, '升': 2, '晋': 2, '鼎': 1, '革': 1,
             '遁': -1, '否': -2, '明夷': -2, '困': -1,
         },
-        '婚姻': {
+        '爱情': {
             '咸': 2, '恒': 2, '家人': 2, '泰': 1, '益': 1,
             '姤': -2, '归妹': -1, '睽': -1, '革': -1,
         },
@@ -297,7 +297,7 @@ def main():
     
     print("\n问事类型分布:")
     type_dist = Counter(c['question_type'] for c in cases)
-    for qtype in ['财运', '事业', '婚姻', '健康', '诉讼']:
+    for qtype in ['财运', '事业', '爱情', '健康', '诉讼']:
         count = type_dist.get(qtype, 0)
         print(f"  {qtype}: {count} ({count/len(cases)*100:.1f}%)")
     

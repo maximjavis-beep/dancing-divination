@@ -38,7 +38,7 @@ def analyze_data():
     # 2. 分析问事类型分布
     print("\n=== 问事类型分布 ===")
     type_dist = Counter(c['question_type'] for c in cases)
-    for qtype in ['财运', '事业', '婚姻', '健康', '诉讼']:
+    for qtype in ['财运', '事业', '爱情', '健康', '诉讼']:
         count = type_dist.get(qtype, 0)
         print(f"  {qtype}: {count} ({count/len(cases)*100:.1f}%)")
     

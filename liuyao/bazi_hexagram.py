@@ -325,7 +325,7 @@ def analyze_bazi_hexagram(birth_time: Dict, gender: str,
         birth_time: {'year': 1990, 'month': 5, 'day': 15, 'hour': 10}
         gender: '男' 或 '女'
         divination_time: {'year': 2024, 'month': 3, 'day': 12, 'hour': 14}
-        question_type: '财运'/'事业'/'婚姻'/'健康'/'诉讼'
+        question_type: '财运'/'事业'/'爱情'/'健康'/'诉讼'
     """
     analyzer = BaziHexagramAnalyzer()
     return analyzer.analyze(

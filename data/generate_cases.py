@@ -16,7 +16,7 @@ from liuyao.engine import LiuYaoEngine, TRIGRAMS
 class CaseGenerator:
     """案例生成器"""
     
-    QUESTION_TYPES = ['财运', '事业', '婚姻', '健康', '诉讼']
+    QUESTION_TYPES = ['财运', '事业', '爱情', '健康', '诉讼']
     
     # 吉凶评语库
     FORTUNE_COMMENTS = {
@@ -181,7 +181,7 @@ class CaseGenerator:
                 '凶': '低调行事，避免冲突',
                 '大凶': '明哲保身，不宜变动',
             },
-            '婚姻': {
+            '爱情': {
                 '大吉': '良缘天定，可喜可贺',
                 '吉': '感情和睦，渐入佳境',
                 '平': '相互包容，平淡是真',

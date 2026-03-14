@@ -456,7 +456,7 @@
     "month": 5,
     "day": 15,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽雷随",
       "upper_trigram": "兑",
@@ -556,7 +556,7 @@
     "month": 2,
     "day": 17,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天雷无妄",
       "upper_trigram": "乾",
@@ -706,7 +706,7 @@
     "month": 6,
     "day": 10,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷风恒",
       "upper_trigram": "震",
@@ -956,7 +956,7 @@
     "month": 7,
     "day": 17,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水泽节",
       "upper_trigram": "坎",
@@ -1306,7 +1306,7 @@
     "month": 8,
     "day": 10,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽火革",
       "upper_trigram": "兑",
@@ -1406,7 +1406,7 @@
     "month": 11,
     "day": 29,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地水师",
       "upper_trigram": "坤",
@@ -1506,7 +1506,7 @@
     "month": 7,
     "day": 28,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天风姤",
       "upper_trigram": "乾",
@@ -1656,7 +1656,7 @@
     "month": 4,
     "day": 10,
     "hour": 12,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风天小畜",
       "upper_trigram": "巽",
@@ -1906,7 +1906,7 @@
     "month": 8,
     "day": 16,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "坎为水",
       "upper_trigram": "坎",
@@ -2006,7 +2006,7 @@
     "month": 12,
     "day": 17,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风水涣",
       "upper_trigram": "巽",
@@ -2056,7 +2056,7 @@
     "month": 11,
     "day": 27,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火水未济",
       "upper_trigram": "离",
@@ -2156,7 +2156,7 @@
     "month": 11,
     "day": 28,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山水蒙",
       "upper_trigram": "艮",
@@ -2256,7 +2256,7 @@
     "month": 11,
     "day": 17,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷地豫",
       "upper_trigram": "震",
@@ -2406,7 +2406,7 @@
     "month": 1,
     "day": 2,
     "hour": 19,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山泽损",
       "upper_trigram": "艮",
@@ -2456,7 +2456,7 @@
     "month": 2,
     "day": 9,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山泽损",
       "upper_trigram": "艮",
@@ -2806,7 +2806,7 @@
     "month": 9,
     "day": 30,
     "hour": 12,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷地豫",
       "upper_trigram": "震",
@@ -2906,7 +2906,7 @@
     "month": 4,
     "day": 5,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水地比",
       "upper_trigram": "坎",
@@ -3506,7 +3506,7 @@
     "month": 4,
     "day": 4,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水风井",
       "upper_trigram": "坎",
@@ -4606,7 +4606,7 @@
     "month": 12,
     "day": 6,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地泽临",
       "upper_trigram": "坤",
@@ -4656,7 +4656,7 @@
     "month": 10,
     "day": 3,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷泽归妹",
       "upper_trigram": "震",
@@ -5056,7 +5056,7 @@
     "month": 9,
     "day": 3,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷风恒",
       "upper_trigram": "震",
@@ -5156,7 +5156,7 @@
     "month": 9,
     "day": 29,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风水涣",
       "upper_trigram": "巽",
@@ -5206,7 +5206,7 @@
     "month": 7,
     "day": 31,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽水困",
       "upper_trigram": "兑",
@@ -5556,7 +5556,7 @@
     "month": 11,
     "day": 14,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水泽节",
       "upper_trigram": "坎",
@@ -6106,7 +6106,7 @@
     "month": 2,
     "day": 20,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽山咸",
       "upper_trigram": "兑",
@@ -6306,7 +6306,7 @@
     "month": 2,
     "day": 12,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火天大有",
       "upper_trigram": "离",
@@ -6456,7 +6456,7 @@
     "month": 7,
     "day": 24,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷水解",
       "upper_trigram": "震",
@@ -6556,7 +6556,7 @@
     "month": 9,
     "day": 23,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地天泰",
       "upper_trigram": "坤",
@@ -6706,7 +6706,7 @@
     "month": 6,
     "day": 8,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷山小过",
       "upper_trigram": "震",
@@ -6806,7 +6806,7 @@
     "month": 3,
     "day": 26,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷泽归妹",
       "upper_trigram": "震",
@@ -6956,7 +6956,7 @@
     "month": 6,
     "day": 2,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水地比",
       "upper_trigram": "坎",
@@ -7056,7 +7056,7 @@
     "month": 9,
     "day": 7,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "巽为风",
       "upper_trigram": "巽",
@@ -7656,7 +7656,7 @@
     "month": 7,
     "day": 20,
     "hour": 19,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽风大过",
       "upper_trigram": "兑",
@@ -7706,7 +7706,7 @@
     "month": 8,
     "day": 3,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火泽睽",
       "upper_trigram": "离",
@@ -8456,7 +8456,7 @@
     "month": 6,
     "day": 14,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天地否",
       "upper_trigram": "乾",
@@ -8556,7 +8556,7 @@
     "month": 6,
     "day": 19,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山天大畜",
       "upper_trigram": "艮",
@@ -8606,7 +8606,7 @@
     "month": 7,
     "day": 10,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水地比",
       "upper_trigram": "坎",
@@ -9456,7 +9456,7 @@
     "month": 1,
     "day": 7,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风水涣",
       "upper_trigram": "巽",
@@ -9556,7 +9556,7 @@
     "month": 11,
     "day": 22,
     "hour": 12,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水泽节",
       "upper_trigram": "坎",
@@ -9956,7 +9956,7 @@
     "month": 12,
     "day": 3,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "坎为水",
       "upper_trigram": "坎",
@@ -10356,7 +10356,7 @@
     "month": 12,
     "day": 27,
     "hour": 13,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风泽中孚",
       "upper_trigram": "巽",
@@ -10406,7 +10406,7 @@
     "month": 11,
     "day": 2,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火山旅",
       "upper_trigram": "离",
@@ -10606,7 +10606,7 @@
     "month": 12,
     "day": 4,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水泽节",
       "upper_trigram": "坎",
@@ -10906,7 +10906,7 @@
     "month": 2,
     "day": 28,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽天夬",
       "upper_trigram": "兑",
@@ -10956,7 +10956,7 @@
     "month": 9,
     "day": 25,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地水师",
       "upper_trigram": "坤",
@@ -11356,7 +11356,7 @@
     "month": 11,
     "day": 17,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火泽睽",
       "upper_trigram": "离",
@@ -11506,7 +11506,7 @@
     "month": 2,
     "day": 1,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽雷随",
       "upper_trigram": "兑",
@@ -11556,7 +11556,7 @@
     "month": 7,
     "day": 18,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "艮为山",
       "upper_trigram": "艮",
@@ -11856,7 +11856,7 @@
     "month": 8,
     "day": 29,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽天夬",
       "upper_trigram": "兑",
@@ -12356,7 +12356,7 @@
     "month": 11,
     "day": 1,
     "hour": 18,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地泽临",
       "upper_trigram": "坤",
@@ -12706,7 +12706,7 @@
     "month": 7,
     "day": 5,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火天大有",
       "upper_trigram": "离",
@@ -13006,7 +13006,7 @@
     "month": 11,
     "day": 8,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽天夬",
       "upper_trigram": "兑",
@@ -13206,7 +13206,7 @@
     "month": 5,
     "day": 2,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火地晋",
       "upper_trigram": "离",
@@ -13256,7 +13256,7 @@
     "month": 3,
     "day": 13,
     "hour": 18,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地泽临",
       "upper_trigram": "坤",
@@ -13306,7 +13306,7 @@
     "month": 9,
     "day": 11,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地水师",
       "upper_trigram": "坤",
@@ -13456,7 +13456,7 @@
     "month": 3,
     "day": 22,
     "hour": 13,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风泽中孚",
       "upper_trigram": "巽",
@@ -13606,7 +13606,7 @@
     "month": 4,
     "day": 15,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火地晋",
       "upper_trigram": "离",
@@ -13706,7 +13706,7 @@
     "month": 8,
     "day": 27,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽地萃",
       "upper_trigram": "兑",
@@ -14006,7 +14006,7 @@
     "month": 7,
     "day": 20,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天火同人",
       "upper_trigram": "乾",
@@ -14306,7 +14306,7 @@
     "month": 1,
     "day": 29,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风天小畜",
       "upper_trigram": "巽",
@@ -14456,7 +14456,7 @@
     "month": 12,
     "day": 24,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火地晋",
       "upper_trigram": "离",
@@ -14656,7 +14656,7 @@
     "month": 8,
     "day": 20,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "乾为天",
       "upper_trigram": "乾",
@@ -14906,7 +14906,7 @@
     "month": 5,
     "day": 1,
     "hour": 13,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水火既济",
       "upper_trigram": "坎",
@@ -14956,7 +14956,7 @@
     "month": 7,
     "day": 1,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "巽为风",
       "upper_trigram": "巽",
@@ -15106,7 +15106,7 @@
     "month": 9,
     "day": 18,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天雷无妄",
       "upper_trigram": "乾",
@@ -15656,7 +15656,7 @@
     "month": 8,
     "day": 19,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "乾为天",
       "upper_trigram": "乾",
@@ -15906,7 +15906,7 @@
     "month": 7,
     "day": 16,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水火既济",
       "upper_trigram": "坎",
@@ -16056,7 +16056,7 @@
     "month": 12,
     "day": 6,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水雷屯",
       "upper_trigram": "坎",
@@ -16456,7 +16456,7 @@
     "month": 6,
     "day": 4,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山风蛊",
       "upper_trigram": "艮",
@@ -16506,7 +16506,7 @@
     "month": 1,
     "day": 20,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天山遁",
       "upper_trigram": "乾",
@@ -16606,7 +16606,7 @@
     "month": 12,
     "day": 8,
     "hour": 18,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天火同人",
       "upper_trigram": "乾",
@@ -16656,7 +16656,7 @@
     "month": 5,
     "day": 18,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风火家人",
       "upper_trigram": "巽",
@@ -16806,7 +16806,7 @@
     "month": 2,
     "day": 20,
     "hour": 18,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷水解",
       "upper_trigram": "震",
@@ -16856,7 +16856,7 @@
     "month": 8,
     "day": 28,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天山遁",
       "upper_trigram": "乾",
@@ -17006,7 +17006,7 @@
     "month": 3,
     "day": 6,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天地否",
       "upper_trigram": "乾",
@@ -17106,7 +17106,7 @@
     "month": 1,
     "day": 24,
     "hour": 19,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水天需",
       "upper_trigram": "坎",
@@ -17456,7 +17456,7 @@
     "month": 12,
     "day": 23,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "乾为天",
       "upper_trigram": "乾",
@@ -17506,7 +17506,7 @@
     "month": 6,
     "day": 10,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风雷益",
       "upper_trigram": "巽",
@@ -17806,7 +17806,7 @@
     "month": 1,
     "day": 24,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山雷颐",
       "upper_trigram": "艮",
@@ -17856,7 +17856,7 @@
     "month": 2,
     "day": 19,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火山旅",
       "upper_trigram": "离",
@@ -17956,7 +17956,7 @@
     "month": 6,
     "day": 22,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火雷噬嗑",
       "upper_trigram": "离",
@@ -18056,7 +18056,7 @@
     "month": 8,
     "day": 14,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水雷屯",
       "upper_trigram": "坎",
@@ -18256,7 +18256,7 @@
     "month": 3,
     "day": 6,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山风蛊",
       "upper_trigram": "艮",
@@ -18606,7 +18606,7 @@
     "month": 1,
     "day": 22,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风水涣",
       "upper_trigram": "巽",
@@ -18956,7 +18956,7 @@
     "month": 3,
     "day": 18,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽天夬",
       "upper_trigram": "兑",
@@ -19256,7 +19256,7 @@
     "month": 2,
     "day": 2,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地风升",
       "upper_trigram": "坤",
@@ -19756,7 +19756,7 @@
     "month": 5,
     "day": 14,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山火贲",
       "upper_trigram": "艮",
@@ -20156,7 +20156,7 @@
     "month": 2,
     "day": 3,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风地观",
       "upper_trigram": "巽",
@@ -20206,7 +20206,7 @@
     "month": 10,
     "day": 2,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天水讼",
       "upper_trigram": "乾",
@@ -20356,7 +20356,7 @@
     "month": 7,
     "day": 16,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火泽睽",
       "upper_trigram": "离",
@@ -20706,7 +20706,7 @@
     "month": 10,
     "day": 1,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火水未济",
       "upper_trigram": "离",
@@ -20756,7 +20756,7 @@
     "month": 1,
     "day": 22,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风地观",
       "upper_trigram": "巽",
@@ -20906,7 +20906,7 @@
     "month": 6,
     "day": 1,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水火既济",
       "upper_trigram": "坎",
@@ -20956,7 +20956,7 @@
     "month": 1,
     "day": 4,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "兑为泽",
       "upper_trigram": "兑",
@@ -21206,7 +21206,7 @@
     "month": 5,
     "day": 9,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷泽归妹",
       "upper_trigram": "震",
@@ -21256,7 +21256,7 @@
     "month": 1,
     "day": 27,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽火革",
       "upper_trigram": "兑",
@@ -21656,7 +21656,7 @@
     "month": 12,
     "day": 15,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天水讼",
       "upper_trigram": "乾",
@@ -21756,7 +21756,7 @@
     "month": 1,
     "day": 16,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风火家人",
       "upper_trigram": "巽",
@@ -21806,7 +21806,7 @@
     "month": 4,
     "day": 20,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地雷复",
       "upper_trigram": "坤",
@@ -22006,7 +22006,7 @@
     "month": 2,
     "day": 18,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火地晋",
       "upper_trigram": "离",
@@ -22656,7 +22656,7 @@
     "month": 2,
     "day": 1,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地火明夷",
       "upper_trigram": "坤",
@@ -22756,7 +22756,7 @@
     "month": 7,
     "day": 29,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地雷复",
       "upper_trigram": "坤",
@@ -23006,7 +23006,7 @@
     "month": 11,
     "day": 4,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山火贲",
       "upper_trigram": "艮",
@@ -23106,7 +23106,7 @@
     "month": 7,
     "day": 17,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山地剥",
       "upper_trigram": "艮",
@@ -23256,7 +23256,7 @@
     "month": 4,
     "day": 26,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽风大过",
       "upper_trigram": "兑",
@@ -23756,7 +23756,7 @@
     "month": 6,
     "day": 2,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山雷颐",
       "upper_trigram": "艮",
@@ -24106,7 +24106,7 @@
     "month": 10,
     "day": 16,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水天需",
       "upper_trigram": "坎",
@@ -24256,7 +24256,7 @@
     "month": 2,
     "day": 18,
     "hour": 12,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火山旅",
       "upper_trigram": "离",
@@ -24406,7 +24406,7 @@
     "month": 1,
     "day": 11,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "兑为泽",
       "upper_trigram": "兑",
@@ -24456,7 +24456,7 @@
     "month": 1,
     "day": 4,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽地萃",
       "upper_trigram": "兑",
@@ -24956,7 +24956,7 @@
     "month": 12,
     "day": 29,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山水蒙",
       "upper_trigram": "艮",
@@ -25006,7 +25006,7 @@
     "month": 9,
     "day": 6,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山风蛊",
       "upper_trigram": "艮",
@@ -25356,7 +25356,7 @@
     "month": 6,
     "day": 20,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水火既济",
       "upper_trigram": "坎",
@@ -25456,7 +25456,7 @@
     "month": 3,
     "day": 30,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水雷屯",
       "upper_trigram": "坎",
@@ -25656,7 +25656,7 @@
     "month": 7,
     "day": 21,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地水师",
       "upper_trigram": "坤",
@@ -25706,7 +25706,7 @@
     "month": 10,
     "day": 8,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -26556,7 +26556,7 @@
     "month": 3,
     "day": 3,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷山小过",
       "upper_trigram": "震",
@@ -26756,7 +26756,7 @@
     "month": 12,
     "day": 22,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山地剥",
       "upper_trigram": "艮",
@@ -27006,7 +27006,7 @@
     "month": 12,
     "day": 19,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山地剥",
       "upper_trigram": "艮",
@@ -27156,7 +27156,7 @@
     "month": 1,
     "day": 1,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地天泰",
       "upper_trigram": "坤",
@@ -27356,7 +27356,7 @@
     "month": 6,
     "day": 20,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "兑为泽",
       "upper_trigram": "兑",
@@ -27556,7 +27556,7 @@
     "month": 9,
     "day": 15,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山地剥",
       "upper_trigram": "艮",
@@ -27656,7 +27656,7 @@
     "month": 11,
     "day": 13,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山风蛊",
       "upper_trigram": "艮",
@@ -27706,7 +27706,7 @@
     "month": 3,
     "day": 27,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽天夬",
       "upper_trigram": "兑",
@@ -28106,7 +28106,7 @@
     "month": 7,
     "day": 10,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山泽损",
       "upper_trigram": "艮",
@@ -28606,7 +28606,7 @@
     "month": 7,
     "day": 17,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地风升",
       "upper_trigram": "坤",
@@ -28706,7 +28706,7 @@
     "month": 1,
     "day": 15,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山地剥",
       "upper_trigram": "艮",
@@ -29606,7 +29606,7 @@
     "month": 9,
     "day": 13,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽水困",
       "upper_trigram": "兑",
@@ -29906,7 +29906,7 @@
     "month": 8,
     "day": 6,
     "hour": 18,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风山渐",
       "upper_trigram": "巽",
@@ -30056,7 +30056,7 @@
     "month": 1,
     "day": 22,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -30306,7 +30306,7 @@
     "month": 10,
     "day": 2,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天山遁",
       "upper_trigram": "乾",
@@ -30656,7 +30656,7 @@
     "month": 11,
     "day": 7,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽山咸",
       "upper_trigram": "兑",
@@ -30956,7 +30956,7 @@
     "month": 4,
     "day": 9,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天泽履",
       "upper_trigram": "乾",
@@ -31106,7 +31106,7 @@
     "month": 10,
     "day": 1,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "艮为山",
       "upper_trigram": "艮",
@@ -31756,7 +31756,7 @@
     "month": 11,
     "day": 2,
     "hour": 19,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽风大过",
       "upper_trigram": "兑",
@@ -31806,7 +31806,7 @@
     "month": 3,
     "day": 15,
     "hour": 19,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地火明夷",
       "upper_trigram": "坤",
@@ -31956,7 +31956,7 @@
     "month": 8,
     "day": 30,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "震为雷",
       "upper_trigram": "震",
@@ -32406,7 +32406,7 @@
     "month": 2,
     "day": 8,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水雷屯",
       "upper_trigram": "坎",
@@ -32606,7 +32606,7 @@
     "month": 2,
     "day": 28,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火雷噬嗑",
       "upper_trigram": "离",
@@ -32756,7 +32756,7 @@
     "month": 1,
     "day": 23,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山泽损",
       "upper_trigram": "艮",
@@ -32956,7 +32956,7 @@
     "month": 12,
     "day": 14,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天地否",
       "upper_trigram": "乾",
@@ -33006,7 +33006,7 @@
     "month": 12,
     "day": 15,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地天泰",
       "upper_trigram": "坤",
@@ -33206,7 +33206,7 @@
     "month": 6,
     "day": 24,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷地豫",
       "upper_trigram": "震",
@@ -33306,7 +33306,7 @@
     "month": 7,
     "day": 9,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风水涣",
       "upper_trigram": "巽",
@@ -33656,7 +33656,7 @@
     "month": 8,
     "day": 25,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地水师",
       "upper_trigram": "坤",
@@ -34206,7 +34206,7 @@
     "month": 1,
     "day": 29,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火水未济",
       "upper_trigram": "离",
@@ -34256,7 +34256,7 @@
     "month": 2,
     "day": 6,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地水师",
       "upper_trigram": "坤",
@@ -34306,7 +34306,7 @@
     "month": 1,
     "day": 16,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "坎为水",
       "upper_trigram": "坎",
@@ -34656,7 +34656,7 @@
     "month": 3,
     "day": 23,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "兑为泽",
       "upper_trigram": "兑",
@@ -34756,7 +34756,7 @@
     "month": 6,
     "day": 19,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水泽节",
       "upper_trigram": "坎",
@@ -34906,7 +34906,7 @@
     "month": 10,
     "day": 26,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽地萃",
       "upper_trigram": "兑",
@@ -34956,7 +34956,7 @@
     "month": 8,
     "day": 28,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地雷复",
       "upper_trigram": "坤",
@@ -35306,7 +35306,7 @@
     "month": 7,
     "day": 3,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "坤为地",
       "upper_trigram": "坤",
@@ -35456,7 +35456,7 @@
     "month": 11,
     "day": 2,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天水讼",
       "upper_trigram": "乾",
@@ -36856,7 +36856,7 @@
     "month": 10,
     "day": 13,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "离为火",
       "upper_trigram": "离",
@@ -36956,7 +36956,7 @@
     "month": 3,
     "day": 28,
     "hour": 19,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水天需",
       "upper_trigram": "坎",
@@ -37056,7 +37056,7 @@
     "month": 4,
     "day": 26,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷风恒",
       "upper_trigram": "震",
@@ -37406,7 +37406,7 @@
     "month": 10,
     "day": 5,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山水蒙",
       "upper_trigram": "艮",
@@ -37906,7 +37906,7 @@
     "month": 9,
     "day": 8,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山风蛊",
       "upper_trigram": "艮",
@@ -38106,7 +38106,7 @@
     "month": 5,
     "day": 5,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山地剥",
       "upper_trigram": "艮",
@@ -38206,7 +38206,7 @@
     "month": 1,
     "day": 5,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷风恒",
       "upper_trigram": "震",
@@ -38356,7 +38356,7 @@
     "month": 2,
     "day": 20,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火水未济",
       "upper_trigram": "离",
@@ -38456,7 +38456,7 @@
     "month": 10,
     "day": 25,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "艮为山",
       "upper_trigram": "艮",
@@ -38556,7 +38556,7 @@
     "month": 11,
     "day": 8,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山风蛊",
       "upper_trigram": "艮",
@@ -38656,7 +38656,7 @@
     "month": 2,
     "day": 1,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽水困",
       "upper_trigram": "兑",
@@ -38756,7 +38756,7 @@
     "month": 12,
     "day": 10,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽天夬",
       "upper_trigram": "兑",
@@ -39056,7 +39056,7 @@
     "month": 11,
     "day": 1,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽地萃",
       "upper_trigram": "兑",
@@ -39256,7 +39256,7 @@
     "month": 2,
     "day": 4,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "兑为泽",
       "upper_trigram": "兑",
@@ -39506,7 +39506,7 @@
     "month": 7,
     "day": 27,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽风大过",
       "upper_trigram": "兑",
@@ -40106,7 +40106,7 @@
     "month": 3,
     "day": 8,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山雷颐",
       "upper_trigram": "艮",
@@ -40506,7 +40506,7 @@
     "month": 4,
     "day": 20,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风山渐",
       "upper_trigram": "巽",
@@ -41006,7 +41006,7 @@
     "month": 3,
     "day": 8,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天火同人",
       "upper_trigram": "乾",
@@ -41056,7 +41056,7 @@
     "month": 7,
     "day": 6,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "乾为天",
       "upper_trigram": "乾",
@@ -41556,7 +41556,7 @@
     "month": 10,
     "day": 11,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "乾为天",
       "upper_trigram": "乾",
@@ -41706,7 +41706,7 @@
     "month": 9,
     "day": 18,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天火同人",
       "upper_trigram": "乾",
@@ -42006,7 +42006,7 @@
     "month": 5,
     "day": 2,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水泽节",
       "upper_trigram": "坎",
@@ -42206,7 +42206,7 @@
     "month": 5,
     "day": 20,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天地否",
       "upper_trigram": "乾",
@@ -42256,7 +42256,7 @@
     "month": 7,
     "day": 28,
     "hour": 12,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地雷复",
       "upper_trigram": "坤",
@@ -42556,7 +42556,7 @@
     "month": 9,
     "day": 12,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽天夬",
       "upper_trigram": "兑",
@@ -42906,7 +42906,7 @@
     "month": 9,
     "day": 8,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地风升",
       "upper_trigram": "坤",
@@ -43556,7 +43556,7 @@
     "month": 12,
     "day": 3,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风雷益",
       "upper_trigram": "巽",
@@ -43706,7 +43706,7 @@
     "month": 8,
     "day": 23,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "离为火",
       "upper_trigram": "离",
@@ -44506,7 +44506,7 @@
     "month": 12,
     "day": 19,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火地晋",
       "upper_trigram": "离",
@@ -44606,7 +44606,7 @@
     "month": 8,
     "day": 29,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天地否",
       "upper_trigram": "乾",
@@ -45306,7 +45306,7 @@
     "month": 8,
     "day": 21,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽火革",
       "upper_trigram": "兑",
@@ -45506,7 +45506,7 @@
     "month": 7,
     "day": 2,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -45856,7 +45856,7 @@
     "month": 4,
     "day": 19,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水雷屯",
       "upper_trigram": "坎",
@@ -46106,7 +46106,7 @@
     "month": 12,
     "day": 10,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽雷随",
       "upper_trigram": "兑",
@@ -46556,7 +46556,7 @@
     "month": 11,
     "day": 21,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水风井",
       "upper_trigram": "坎",
@@ -46756,7 +46756,7 @@
     "month": 9,
     "day": 22,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水雷屯",
       "upper_trigram": "坎",
@@ -46906,7 +46906,7 @@
     "month": 10,
     "day": 23,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -47206,7 +47206,7 @@
     "month": 9,
     "day": 27,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地雷复",
       "upper_trigram": "坤",
@@ -47406,7 +47406,7 @@
     "month": 3,
     "day": 22,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山火贲",
       "upper_trigram": "艮",
@@ -47856,7 +47856,7 @@
     "month": 10,
     "day": 3,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽风大过",
       "upper_trigram": "兑",
@@ -48706,7 +48706,7 @@
     "month": 12,
     "day": 17,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "离为火",
       "upper_trigram": "离",
@@ -48906,7 +48906,7 @@
     "month": 5,
     "day": 18,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "离为火",
       "upper_trigram": "离",
@@ -49656,7 +49656,7 @@
     "month": 12,
     "day": 7,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "乾为天",
       "upper_trigram": "乾",
@@ -49706,7 +49706,7 @@
     "month": 1,
     "day": 31,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水泽节",
       "upper_trigram": "坎",
@@ -49806,7 +49806,7 @@
     "month": 7,
     "day": 10,
     "hour": 13,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天水讼",
       "upper_trigram": "乾",
@@ -50606,7 +50606,7 @@
     "month": 11,
     "day": 8,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火雷噬嗑",
       "upper_trigram": "离",
@@ -50706,7 +50706,7 @@
     "month": 1,
     "day": 25,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地水师",
       "upper_trigram": "坤",
@@ -50956,7 +50956,7 @@
     "month": 4,
     "day": 22,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山地剥",
       "upper_trigram": "艮",
@@ -51206,7 +51206,7 @@
     "month": 5,
     "day": 2,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火山旅",
       "upper_trigram": "离",
@@ -51606,7 +51606,7 @@
     "month": 8,
     "day": 30,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水风井",
       "upper_trigram": "坎",
@@ -51906,7 +51906,7 @@
     "month": 9,
     "day": 23,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风火家人",
       "upper_trigram": "巽",
@@ -51956,7 +51956,7 @@
     "month": 7,
     "day": 4,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山雷颐",
       "upper_trigram": "艮",
@@ -52106,7 +52106,7 @@
     "month": 12,
     "day": 27,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水风井",
       "upper_trigram": "坎",
@@ -52156,7 +52156,7 @@
     "month": 11,
     "day": 17,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽火革",
       "upper_trigram": "兑",
@@ -52456,7 +52456,7 @@
     "month": 8,
     "day": 13,
     "hour": 12,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风天小畜",
       "upper_trigram": "巽",
@@ -53256,7 +53256,7 @@
     "month": 5,
     "day": 20,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天山遁",
       "upper_trigram": "乾",
@@ -53306,7 +53306,7 @@
     "month": 1,
     "day": 20,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷火丰",
       "upper_trigram": "震",
@@ -53406,7 +53406,7 @@
     "month": 1,
     "day": 3,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "乾为天",
       "upper_trigram": "乾",
@@ -53456,7 +53456,7 @@
     "month": 3,
     "day": 24,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "坤为地",
       "upper_trigram": "坤",
@@ -53706,7 +53706,7 @@
     "month": 3,
     "day": 25,
     "hour": 12,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火山旅",
       "upper_trigram": "离",
@@ -53806,7 +53806,7 @@
     "month": 7,
     "day": 9,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地山谦",
       "upper_trigram": "坤",
@@ -53856,7 +53856,7 @@
     "month": 2,
     "day": 27,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天山遁",
       "upper_trigram": "乾",
@@ -54456,7 +54456,7 @@
     "month": 7,
     "day": 25,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷水解",
       "upper_trigram": "震",
@@ -54556,7 +54556,7 @@
     "month": 9,
     "day": 24,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山火贲",
       "upper_trigram": "艮",
@@ -54706,7 +54706,7 @@
     "month": 2,
     "day": 13,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风水涣",
       "upper_trigram": "巽",
@@ -54856,7 +54856,7 @@
     "month": 1,
     "day": 7,
     "hour": 19,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风地观",
       "upper_trigram": "巽",
@@ -54956,7 +54956,7 @@
     "month": 10,
     "day": 13,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风天小畜",
       "upper_trigram": "巽",
@@ -55006,7 +55006,7 @@
     "month": 6,
     "day": 8,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽天夬",
       "upper_trigram": "兑",
@@ -55106,7 +55106,7 @@
     "month": 10,
     "day": 4,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风天小畜",
       "upper_trigram": "巽",
@@ -55206,7 +55206,7 @@
     "month": 11,
     "day": 20,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水地比",
       "upper_trigram": "坎",
@@ -55606,7 +55606,7 @@
     "month": 2,
     "day": 11,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天火同人",
       "upper_trigram": "乾",
@@ -56056,7 +56056,7 @@
     "month": 9,
     "day": 14,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -56356,7 +56356,7 @@
     "month": 12,
     "day": 15,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山火贲",
       "upper_trigram": "艮",
@@ -56406,7 +56406,7 @@
     "month": 8,
     "day": 27,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天雷无妄",
       "upper_trigram": "乾",
@@ -56456,7 +56456,7 @@
     "month": 8,
     "day": 22,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷火丰",
       "upper_trigram": "震",
@@ -56556,7 +56556,7 @@
     "month": 1,
     "day": 29,
     "hour": 12,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷地豫",
       "upper_trigram": "震",
@@ -56606,7 +56606,7 @@
     "month": 7,
     "day": 1,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -57356,7 +57356,7 @@
     "month": 10,
     "day": 29,
     "hour": 19,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火水未济",
       "upper_trigram": "离",
@@ -57756,7 +57756,7 @@
     "month": 5,
     "day": 15,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷山小过",
       "upper_trigram": "震",
@@ -58106,7 +58106,7 @@
     "month": 3,
     "day": 7,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽天夬",
       "upper_trigram": "兑",
@@ -58156,7 +58156,7 @@
     "month": 2,
     "day": 11,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天火同人",
       "upper_trigram": "乾",
@@ -59456,7 +59456,7 @@
     "month": 5,
     "day": 30,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽火革",
       "upper_trigram": "兑",
@@ -59556,7 +59556,7 @@
     "month": 3,
     "day": 22,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水雷屯",
       "upper_trigram": "坎",
@@ -59756,7 +59756,7 @@
     "month": 5,
     "day": 1,
     "hour": 19,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风地观",
       "upper_trigram": "巽",
@@ -59856,7 +59856,7 @@
     "month": 11,
     "day": 19,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "离为火",
       "upper_trigram": "离",
@@ -59906,7 +59906,7 @@
     "month": 6,
     "day": 18,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风天小畜",
       "upper_trigram": "巽",
@@ -60256,7 +60256,7 @@
     "month": 3,
     "day": 17,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火天大有",
       "upper_trigram": "离",
@@ -60356,7 +60356,7 @@
     "month": 5,
     "day": 26,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山水蒙",
       "upper_trigram": "艮",
@@ -60606,7 +60606,7 @@
     "month": 12,
     "day": 28,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风雷益",
       "upper_trigram": "巽",
@@ -60656,7 +60656,7 @@
     "month": 6,
     "day": 2,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地泽临",
       "upper_trigram": "坤",
@@ -60956,7 +60956,7 @@
     "month": 10,
     "day": 8,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水雷屯",
       "upper_trigram": "坎",
@@ -61456,7 +61456,7 @@
     "month": 2,
     "day": 12,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火泽睽",
       "upper_trigram": "离",
@@ -61656,7 +61656,7 @@
     "month": 12,
     "day": 1,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风地观",
       "upper_trigram": "巽",
@@ -62156,7 +62156,7 @@
     "month": 12,
     "day": 12,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷山小过",
       "upper_trigram": "震",
@@ -62456,7 +62456,7 @@
     "month": 9,
     "day": 10,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山地剥",
       "upper_trigram": "艮",
@@ -62956,7 +62956,7 @@
     "month": 12,
     "day": 11,
     "hour": 13,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水火既济",
       "upper_trigram": "坎",
@@ -63056,7 +63056,7 @@
     "month": 11,
     "day": 10,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷火丰",
       "upper_trigram": "震",
@@ -63256,7 +63256,7 @@
     "month": 1,
     "day": 21,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水天需",
       "upper_trigram": "坎",
@@ -63306,7 +63306,7 @@
     "month": 4,
     "day": 18,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火天大有",
       "upper_trigram": "离",
@@ -63406,7 +63406,7 @@
     "month": 11,
     "day": 25,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷风恒",
       "upper_trigram": "震",
@@ -63456,7 +63456,7 @@
     "month": 6,
     "day": 29,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火地晋",
       "upper_trigram": "离",
@@ -64056,7 +64056,7 @@
     "month": 6,
     "day": 5,
     "hour": 12,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽水困",
       "upper_trigram": "兑",
@@ -64206,7 +64206,7 @@
     "month": 4,
     "day": 4,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷水解",
       "upper_trigram": "震",
@@ -64706,7 +64706,7 @@
     "month": 6,
     "day": 2,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷火丰",
       "upper_trigram": "震",
@@ -65156,7 +65156,7 @@
     "month": 6,
     "day": 21,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽水困",
       "upper_trigram": "兑",
@@ -65356,7 +65356,7 @@
     "month": 8,
     "day": 26,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地水师",
       "upper_trigram": "坤",
@@ -65456,7 +65456,7 @@
     "month": 3,
     "day": 30,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "坎为水",
       "upper_trigram": "坎",
@@ -65506,7 +65506,7 @@
     "month": 8,
     "day": 26,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽水困",
       "upper_trigram": "兑",
@@ -65806,7 +65806,7 @@
     "month": 8,
     "day": 15,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山风蛊",
       "upper_trigram": "艮",
@@ -66356,7 +66356,7 @@
     "month": 11,
     "day": 19,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风雷益",
       "upper_trigram": "巽",
@@ -66706,7 +66706,7 @@
     "month": 1,
     "day": 3,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷风恒",
       "upper_trigram": "震",
@@ -66806,7 +66806,7 @@
     "month": 1,
     "day": 16,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地水师",
       "upper_trigram": "坤",
@@ -66956,7 +66956,7 @@
     "month": 3,
     "day": 11,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -67156,7 +67156,7 @@
     "month": 3,
     "day": 16,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火地晋",
       "upper_trigram": "离",
@@ -67456,7 +67456,7 @@
     "month": 5,
     "day": 1,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "离为火",
       "upper_trigram": "离",
@@ -67556,7 +67556,7 @@
     "month": 5,
     "day": 3,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水火既济",
       "upper_trigram": "坎",
@@ -67606,7 +67606,7 @@
     "month": 4,
     "day": 20,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "震为雷",
       "upper_trigram": "震",
@@ -67706,7 +67706,7 @@
     "month": 12,
     "day": 14,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天山遁",
       "upper_trigram": "乾",
@@ -68306,7 +68306,7 @@
     "month": 1,
     "day": 3,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽雷随",
       "upper_trigram": "兑",
@@ -68556,7 +68556,7 @@
     "month": 11,
     "day": 10,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽雷随",
       "upper_trigram": "兑",
@@ -68806,7 +68806,7 @@
     "month": 3,
     "day": 22,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风泽中孚",
       "upper_trigram": "巽",
@@ -68906,7 +68906,7 @@
     "month": 1,
     "day": 11,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火泽睽",
       "upper_trigram": "离",
@@ -69056,7 +69056,7 @@
     "month": 8,
     "day": 27,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽地萃",
       "upper_trigram": "兑",
@@ -69406,7 +69406,7 @@
     "month": 7,
     "day": 29,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽地萃",
       "upper_trigram": "兑",
@@ -69556,7 +69556,7 @@
     "month": 3,
     "day": 23,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天地否",
       "upper_trigram": "乾",
@@ -69856,7 +69856,7 @@
     "month": 10,
     "day": 26,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽风大过",
       "upper_trigram": "兑",
@@ -70156,7 +70156,7 @@
     "month": 7,
     "day": 22,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷地豫",
       "upper_trigram": "震",
@@ -70206,7 +70206,7 @@
     "month": 12,
     "day": 21,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天地否",
       "upper_trigram": "乾",
@@ -70406,7 +70406,7 @@
     "month": 9,
     "day": 16,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水雷屯",
       "upper_trigram": "坎",
@@ -70706,7 +70706,7 @@
     "month": 1,
     "day": 30,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水地比",
       "upper_trigram": "坎",
@@ -71006,7 +71006,7 @@
     "month": 6,
     "day": 16,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风泽中孚",
       "upper_trigram": "巽",
@@ -71356,7 +71356,7 @@
     "month": 7,
     "day": 1,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水天需",
       "upper_trigram": "坎",
@@ -71456,7 +71456,7 @@
     "month": 5,
     "day": 27,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山天大畜",
       "upper_trigram": "艮",
@@ -72206,7 +72206,7 @@
     "month": 2,
     "day": 8,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽天夬",
       "upper_trigram": "兑",
@@ -72456,7 +72456,7 @@
     "month": 3,
     "day": 22,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风天小畜",
       "upper_trigram": "巽",
@@ -72506,7 +72506,7 @@
     "month": 12,
     "day": 12,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "艮为山",
       "upper_trigram": "艮",
@@ -72756,7 +72756,7 @@
     "month": 4,
     "day": 11,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风地观",
       "upper_trigram": "巽",
@@ -73406,7 +73406,7 @@
     "month": 4,
     "day": 24,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地风升",
       "upper_trigram": "坤",
@@ -73506,7 +73506,7 @@
     "month": 7,
     "day": 29,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "离为火",
       "upper_trigram": "离",
@@ -73756,7 +73756,7 @@
     "month": 9,
     "day": 12,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "震为雷",
       "upper_trigram": "震",
@@ -73806,7 +73806,7 @@
     "month": 1,
     "day": 23,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地风升",
       "upper_trigram": "坤",
@@ -74406,7 +74406,7 @@
     "month": 6,
     "day": 5,
     "hour": 12,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火山旅",
       "upper_trigram": "离",
@@ -74506,7 +74506,7 @@
     "month": 5,
     "day": 21,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地雷复",
       "upper_trigram": "坤",
@@ -74906,7 +74906,7 @@
     "month": 4,
     "day": 13,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "坤为地",
       "upper_trigram": "坤",
@@ -74956,7 +74956,7 @@
     "month": 5,
     "day": 17,
     "hour": 18,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷水解",
       "upper_trigram": "震",
@@ -75156,7 +75156,7 @@
     "month": 9,
     "day": 17,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "坤为地",
       "upper_trigram": "坤",
@@ -76406,7 +76406,7 @@
     "month": 12,
     "day": 13,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水天需",
       "upper_trigram": "坎",
@@ -76506,7 +76506,7 @@
     "month": 3,
     "day": 23,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "乾为天",
       "upper_trigram": "乾",
@@ -76606,7 +76606,7 @@
     "month": 5,
     "day": 28,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "巽为风",
       "upper_trigram": "巽",
@@ -76656,7 +76656,7 @@
     "month": 8,
     "day": 27,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "艮为山",
       "upper_trigram": "艮",
@@ -76706,7 +76706,7 @@
     "month": 7,
     "day": 23,
     "hour": 18,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水地比",
       "upper_trigram": "坎",
@@ -76806,7 +76806,7 @@
     "month": 4,
     "day": 25,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风雷益",
       "upper_trigram": "巽",
@@ -76906,7 +76906,7 @@
     "month": 9,
     "day": 14,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风地观",
       "upper_trigram": "巽",
@@ -77006,7 +77006,7 @@
     "month": 12,
     "day": 7,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽天夬",
       "upper_trigram": "兑",
@@ -77156,7 +77156,7 @@
     "month": 7,
     "day": 9,
     "hour": 12,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷地豫",
       "upper_trigram": "震",
@@ -77656,7 +77656,7 @@
     "month": 1,
     "day": 30,
     "hour": 19,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风地观",
       "upper_trigram": "巽",
@@ -77706,7 +77706,7 @@
     "month": 12,
     "day": 9,
     "hour": 18,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风山渐",
       "upper_trigram": "巽",
@@ -77756,7 +77756,7 @@
     "month": 1,
     "day": 9,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "艮为山",
       "upper_trigram": "艮",
@@ -77906,7 +77906,7 @@
     "month": 3,
     "day": 7,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "坎为水",
       "upper_trigram": "坎",
@@ -78156,7 +78156,7 @@
     "month": 7,
     "day": 25,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷水解",
       "upper_trigram": "震",
@@ -78256,7 +78256,7 @@
     "month": 6,
     "day": 22,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天地否",
       "upper_trigram": "乾",
@@ -78306,7 +78306,7 @@
     "month": 6,
     "day": 9,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水地比",
       "upper_trigram": "坎",
@@ -78406,7 +78406,7 @@
     "month": 12,
     "day": 6,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天雷无妄",
       "upper_trigram": "乾",
@@ -79006,7 +79006,7 @@
     "month": 7,
     "day": 16,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火天大有",
       "upper_trigram": "离",
@@ -79106,7 +79106,7 @@
     "month": 7,
     "day": 16,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "艮为山",
       "upper_trigram": "艮",
@@ -79156,7 +79156,7 @@
     "month": 4,
     "day": 23,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天雷无妄",
       "upper_trigram": "乾",
@@ -79306,7 +79306,7 @@
     "month": 5,
     "day": 17,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -79606,7 +79606,7 @@
     "month": 6,
     "day": 11,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风泽中孚",
       "upper_trigram": "巽",
@@ -79656,7 +79656,7 @@
     "month": 10,
     "day": 4,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火风鼎",
       "upper_trigram": "离",
@@ -79756,7 +79756,7 @@
     "month": 12,
     "day": 22,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽地萃",
       "upper_trigram": "兑",
@@ -79906,7 +79906,7 @@
     "month": 1,
     "day": 30,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山水蒙",
       "upper_trigram": "艮",
@@ -80256,7 +80256,7 @@
     "month": 4,
     "day": 14,
     "hour": 7,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山水蒙",
       "upper_trigram": "艮",
@@ -80406,7 +80406,7 @@
     "month": 9,
     "day": 20,
     "hour": 11,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷山小过",
       "upper_trigram": "震",
@@ -80456,7 +80456,7 @@
     "month": 8,
     "day": 14,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷风恒",
       "upper_trigram": "震",
@@ -80806,7 +80806,7 @@
     "month": 1,
     "day": 19,
     "hour": 13,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽山咸",
       "upper_trigram": "兑",
@@ -80906,7 +80906,7 @@
     "month": 7,
     "day": 27,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽水困",
       "upper_trigram": "兑",
@@ -81006,7 +81006,7 @@
     "month": 10,
     "day": 4,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷火丰",
       "upper_trigram": "震",
@@ -81056,7 +81056,7 @@
     "month": 4,
     "day": 17,
     "hour": 13,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风泽中孚",
       "upper_trigram": "巽",
@@ -81406,7 +81406,7 @@
     "month": 7,
     "day": 11,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽地萃",
       "upper_trigram": "兑",
@@ -82006,7 +82006,7 @@
     "month": 5,
     "day": 28,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天地否",
       "upper_trigram": "乾",
@@ -82056,7 +82056,7 @@
     "month": 11,
     "day": 28,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -82706,7 +82706,7 @@
     "month": 9,
     "day": 3,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天山遁",
       "upper_trigram": "乾",
@@ -82856,7 +82856,7 @@
     "month": 1,
     "day": 31,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷天大壮",
       "upper_trigram": "震",
@@ -83006,7 +83006,7 @@
     "month": 5,
     "day": 6,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽水困",
       "upper_trigram": "兑",
@@ -83106,7 +83106,7 @@
     "month": 11,
     "day": 5,
     "hour": 19,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山泽损",
       "upper_trigram": "艮",
@@ -83156,7 +83156,7 @@
     "month": 5,
     "day": 2,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火雷噬嗑",
       "upper_trigram": "离",
@@ -83306,7 +83306,7 @@
     "month": 2,
     "day": 17,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽水困",
       "upper_trigram": "兑",
@@ -84106,7 +84106,7 @@
     "month": 6,
     "day": 9,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -85356,7 +85356,7 @@
     "month": 5,
     "day": 13,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天山遁",
       "upper_trigram": "乾",
@@ -85406,7 +85406,7 @@
     "month": 1,
     "day": 31,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山天大畜",
       "upper_trigram": "艮",
@@ -85606,7 +85606,7 @@
     "month": 3,
     "day": 4,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "艮为山",
       "upper_trigram": "艮",
@@ -85756,7 +85756,7 @@
     "month": 11,
     "day": 26,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火山旅",
       "upper_trigram": "离",
@@ -85856,7 +85856,7 @@
     "month": 2,
     "day": 14,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷泽归妹",
       "upper_trigram": "震",
@@ -86206,7 +86206,7 @@
     "month": 6,
     "day": 7,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天地否",
       "upper_trigram": "乾",
@@ -86306,7 +86306,7 @@
     "month": 5,
     "day": 4,
     "hour": 20,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地雷复",
       "upper_trigram": "坤",
@@ -86406,7 +86406,7 @@
     "month": 5,
     "day": 16,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风水涣",
       "upper_trigram": "巽",
@@ -87306,7 +87306,7 @@
     "month": 5,
     "day": 11,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风山渐",
       "upper_trigram": "巽",
@@ -87856,7 +87856,7 @@
     "month": 11,
     "day": 21,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山泽损",
       "upper_trigram": "艮",
@@ -87906,7 +87906,7 @@
     "month": 8,
     "day": 22,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "震为雷",
       "upper_trigram": "震",
@@ -88006,7 +88006,7 @@
     "month": 1,
     "day": 24,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "坤为地",
       "upper_trigram": "坤",
@@ -88356,7 +88356,7 @@
     "month": 3,
     "day": 6,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山雷颐",
       "upper_trigram": "艮",
@@ -88406,7 +88406,7 @@
     "month": 10,
     "day": 11,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风泽中孚",
       "upper_trigram": "巽",
@@ -88706,7 +88706,7 @@
     "month": 5,
     "day": 21,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "艮为山",
       "upper_trigram": "艮",
@@ -88806,7 +88806,7 @@
     "month": 12,
     "day": 11,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷天大壮",
       "upper_trigram": "震",
@@ -88906,7 +88906,7 @@
     "month": 7,
     "day": 18,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -89006,7 +89006,7 @@
     "month": 4,
     "day": 6,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山火贲",
       "upper_trigram": "艮",
@@ -89706,7 +89706,7 @@
     "month": 6,
     "day": 26,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水风井",
       "upper_trigram": "坎",
@@ -89956,7 +89956,7 @@
     "month": 11,
     "day": 8,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "兑为泽",
       "upper_trigram": "兑",
@@ -90256,7 +90256,7 @@
     "month": 4,
     "day": 14,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "兑为泽",
       "upper_trigram": "兑",
@@ -90406,7 +90406,7 @@
     "month": 9,
     "day": 30,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风火家人",
       "upper_trigram": "巽",
@@ -90556,7 +90556,7 @@
     "month": 8,
     "day": 15,
     "hour": 12,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山火贲",
       "upper_trigram": "艮",
@@ -91256,7 +91256,7 @@
     "month": 3,
     "day": 16,
     "hour": 13,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天水讼",
       "upper_trigram": "乾",
@@ -91506,7 +91506,7 @@
     "month": 12,
     "day": 17,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷泽归妹",
       "upper_trigram": "震",
@@ -91706,7 +91706,7 @@
     "month": 4,
     "day": 22,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽山咸",
       "upper_trigram": "兑",
@@ -91856,7 +91856,7 @@
     "month": 4,
     "day": 15,
     "hour": 13,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山雷颐",
       "upper_trigram": "艮",
@@ -91906,7 +91906,7 @@
     "month": 2,
     "day": 4,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水雷屯",
       "upper_trigram": "坎",
@@ -92006,7 +92006,7 @@
     "month": 1,
     "day": 8,
     "hour": 19,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风地观",
       "upper_trigram": "巽",
@@ -92306,7 +92306,7 @@
     "month": 5,
     "day": 16,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "泽火革",
       "upper_trigram": "兑",
@@ -92756,7 +92756,7 @@
     "month": 3,
     "day": 14,
     "hour": 18,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天火同人",
       "upper_trigram": "乾",
@@ -92806,7 +92806,7 @@
     "month": 7,
     "day": 9,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷风恒",
       "upper_trigram": "震",
@@ -92956,7 +92956,7 @@
     "month": 9,
     "day": 6,
     "hour": 22,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火天大有",
       "upper_trigram": "离",
@@ -93706,7 +93706,7 @@
     "month": 8,
     "day": 4,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火天大有",
       "upper_trigram": "离",
@@ -93756,7 +93756,7 @@
     "month": 6,
     "day": 6,
     "hour": 2,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷水解",
       "upper_trigram": "震",
@@ -93806,7 +93806,7 @@
     "month": 11,
     "day": 3,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷风恒",
       "upper_trigram": "震",
@@ -93856,7 +93856,7 @@
     "month": 8,
     "day": 21,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天水讼",
       "upper_trigram": "乾",
@@ -94206,7 +94206,7 @@
     "month": 4,
     "day": 24,
     "hour": 16,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "坤为地",
       "upper_trigram": "坤",
@@ -94256,7 +94256,7 @@
     "month": 1,
     "day": 24,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天水讼",
       "upper_trigram": "乾",
@@ -94356,7 +94356,7 @@
     "month": 11,
     "day": 4,
     "hour": 10,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水地比",
       "upper_trigram": "坎",
@@ -94556,7 +94556,7 @@
     "month": 5,
     "day": 3,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山泽损",
       "upper_trigram": "艮",
@@ -94706,7 +94706,7 @@
     "month": 1,
     "day": 31,
     "hour": 14,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水雷屯",
       "upper_trigram": "坎",
@@ -95306,7 +95306,7 @@
     "month": 12,
     "day": 2,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷天大壮",
       "upper_trigram": "震",
@@ -95406,7 +95406,7 @@
     "month": 2,
     "day": 14,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风火家人",
       "upper_trigram": "巽",
@@ -95706,7 +95706,7 @@
     "month": 7,
     "day": 9,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风天小畜",
       "upper_trigram": "巽",
@@ -96106,7 +96106,7 @@
     "month": 12,
     "day": 29,
     "hour": 9,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -96456,7 +96456,7 @@
     "month": 12,
     "day": 3,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水火既济",
       "upper_trigram": "坎",
@@ -96556,7 +96556,7 @@
     "month": 8,
     "day": 31,
     "hour": 3,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风地观",
       "upper_trigram": "巽",
@@ -96606,7 +96606,7 @@
     "month": 8,
     "day": 2,
     "hour": 5,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "地风升",
       "upper_trigram": "坤",
@@ -97656,7 +97656,7 @@
     "month": 2,
     "day": 4,
     "hour": 6,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火天大有",
       "upper_trigram": "离",
@@ -97706,7 +97706,7 @@
     "month": 3,
     "day": 13,
     "hour": 21,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山雷颐",
       "upper_trigram": "艮",
@@ -97856,7 +97856,7 @@
     "month": 10,
     "day": 1,
     "hour": 4,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火山旅",
       "upper_trigram": "离",
@@ -97956,7 +97956,7 @@
     "month": 12,
     "day": 11,
     "hour": 17,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -98956,7 +98956,7 @@
     "month": 3,
     "day": 9,
     "hour": 15,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "火泽睽",
       "upper_trigram": "离",
@@ -99306,7 +99306,7 @@
     "month": 6,
     "day": 9,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "水山蹇",
       "upper_trigram": "坎",
@@ -99456,7 +99456,7 @@
     "month": 11,
     "day": 9,
     "hour": 13,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "天水讼",
       "upper_trigram": "乾",
@@ -99556,7 +99556,7 @@
     "month": 5,
     "day": 8,
     "hour": 23,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "雷火丰",
       "upper_trigram": "震",
@@ -99606,7 +99606,7 @@
     "month": 5,
     "day": 26,
     "hour": 18,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "山天大畜",
       "upper_trigram": "艮",
@@ -99706,7 +99706,7 @@
     "month": 3,
     "day": 19,
     "hour": 1,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "风水涣",
       "upper_trigram": "巽",
@@ -99756,7 +99756,7 @@
     "month": 7,
     "day": 2,
     "hour": 0,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "坤为地",
       "upper_trigram": "坤",
@@ -99856,7 +99856,7 @@
     "month": 10,
     "day": 9,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "离为火",
       "upper_trigram": "离",
@@ -99906,7 +99906,7 @@
     "month": 6,
     "day": 15,
     "hour": 8,
-    "question_type": "婚姻",
+    "question_type": "爱情",
     "hexagram": {
       "name": "震为雷",
       "upper_trigram": "震",

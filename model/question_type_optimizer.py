@@ -34,8 +34,8 @@ HEXAGRAM_QUESTION_WEIGHTS = {
         '乾': 3, '升': 3, '晋': 3, '鼎': 2, '革': 2, '履': 2,
         '遁': -2, '否': -3, '明夷': -3, '困': -2, '蛊': -2,
     },
-    # 婚姻相关卦
-    '婚姻': {
+    # 爱情相关卦
+    '爱情': {
         '咸': 3, '恒': 3, '家人': 3, '泰': 2, '益': 2, '渐': 2,
         '姤': -3, '归妹': -2, '睽': -2, '革': -2, '小畜': 2,
     },
@@ -55,7 +55,7 @@ HEXAGRAM_QUESTION_WEIGHTS = {
 class QuestionTypeFeatureExtractor:
     """问事类型特征提取器"""
     
-    QUESTION_TYPES = ['财运', '事业', '婚姻', '健康', '诉讼']
+    QUESTION_TYPES = ['财运', '事业', '爱情', '健康', '诉讼']
     DEITY_TYPES = ['妻财', '官鬼', '父母', '子孙', '兄弟']
     
     def __init__(self):
@@ -173,7 +173,7 @@ def analyze_question_type_patterns():
             question_deity[qtype] = []
         question_deity[qtype].append(deity)
     
-    for qtype in ['财运', '事业', '婚姻', '健康', '诉讼']:
+    for qtype in ['财运', '事业', '爱情', '健康', '诉讼']:
         deities = question_deity[qtype]
         deity_dist = Counter(deities)
         print(f'\n{qtype}:')
@@ -199,7 +199,7 @@ def analyze_question_type_patterns():
             continue
         question_dist = Counter(questions)
         print(f'\n{deity}:')
-        for qtype in ['财运', '事业', '婚姻', '健康', '诉讼']:
+        for qtype in ['财运', '事业', '爱情', '健康', '诉讼']:
             count = question_dist.get(qtype, 0)
             print(f'  {qtype}: {count/len(questions)*100:.1f}%')
 

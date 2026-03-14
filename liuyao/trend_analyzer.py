@@ -250,7 +250,7 @@ class HexagramTrendAnalyzer:
             else:
                 recommendations.append("💼 事业运平，宜巩固现有成果，不宜冒进")
         
-        elif question_type == '婚姻':
+        elif question_type == '爱情':
             if trend['overall_fortune'] in ['大吉', '吉']:
                 recommendations.append("💕 感情运佳，适合表白、约会或谈婚论嫁")
             else:

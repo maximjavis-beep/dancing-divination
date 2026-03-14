@@ -62,7 +62,7 @@ class FeatureEngineer:
         
         # 2. 问事类型 (可选，5维)
         if include_question_type:
-            question_types = ['财运', '事业', '婚姻', '健康', '诉讼']
+            question_types = ['财运', '事业', '爱情', '健康', '诉讼']
             qtype_idx = question_types.index(case['question_type'])
             qtype_onehot = [1 if i == qtype_idx else 0 for i in range(5)]
             features.extend(qtype_onehot)
@@ -199,7 +199,7 @@ class FeatureEngineer:
         names.extend(['month', 'day', 'hour', 'year'])
         
         if include_question_type:
-            names.extend([f'qtype_{t}' for t in ['财运', '事业', '婚姻', '健康', '诉讼']])
+            names.extend([f'qtype_{t}' for t in ['财运', '事业', '爱情', '健康', '诉讼']])
         
         # 卦象特征
         names.extend([f'line_{i}' for i in range(6)])

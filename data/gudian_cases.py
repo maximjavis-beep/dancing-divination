@@ -100,8 +100,8 @@ ZENGTUAN_CASES = [
         "month": 11,
         "day": 8,
         "hour": 9,
-        "question_type": "婚姻",
-        "question": "占婚姻",
+        "question_type": "爱情",
+        "question": "占爱情",
         "hexagram": {
             "name": "地雷复",
             "upper_trigram": "坤",
@@ -124,7 +124,7 @@ ZENGTUAN_CASES = [
         },
         "expert_interpretation": {
             "fortune_level": "大吉",
-            "fortune_comment": "财爻生世，婚姻美满",
+            "fortune_comment": "财爻生世，爱情美满",
             "time_window": "长期（三月内）",
             "advice": "良缘天定，可喜可贺"
         },
@@ -310,7 +310,7 @@ ZENGTUAN_CASES = [
         "month": 9,
         "day": 10,
         "hour": 7,
-        "question_type": "婚姻",
+        "question_type": "爱情",
         "question": "占离婚",
         "hexagram": {
             "name": "泽天夬",
@@ -334,7 +334,7 @@ ZENGTUAN_CASES = [
         },
         "expert_interpretation": {
             "fortune_level": "平",
-            "fortune_comment": "财爻持世，婚姻可保",
+            "fortune_comment": "财爻持世，爱情可保",
             "time_window": "中期（一月内）",
             "advice": "夫妻和睦，不宜离异"
         },
@@ -446,12 +446,12 @@ ADDITIONAL_CASES = [
     {"case_id": "zt_019", "source": "增删卜易", "question_type": "事业", "fortune_level": "平", "hexagram_name": "水风井", "verified": True},
     {"case_id": "zt_020", "source": "增删卜易", "question_type": "事业", "fortune_level": "吉", "hexagram_name": "地泽临", "verified": True},
     
-    # 婚姻类
-    {"case_id": "zt_021", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "大吉", "hexagram_name": "雷泽归妹", "verified": True},
-    {"case_id": "zt_022", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "吉", "hexagram_name": "风火家人", "verified": True},
-    {"case_id": "zt_023", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "凶", "hexagram_name": "泽风大过", "verified": True},
-    {"case_id": "zt_024", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "平", "hexagram_name": "水泽节", "verified": True},
-    {"case_id": "zt_025", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "大吉", "hexagram_name": "地天泰", "verified": True},
+    # 爱情类
+    {"case_id": "zt_021", "source": "增删卜易", "question_type": "爱情", "fortune_level": "大吉", "hexagram_name": "雷泽归妹", "verified": True},
+    {"case_id": "zt_022", "source": "增删卜易", "question_type": "爱情", "fortune_level": "吉", "hexagram_name": "风火家人", "verified": True},
+    {"case_id": "zt_023", "source": "增删卜易", "question_type": "爱情", "fortune_level": "凶", "hexagram_name": "泽风大过", "verified": True},
+    {"case_id": "zt_024", "source": "增删卜易", "question_type": "爱情", "fortune_level": "平", "hexagram_name": "水泽节", "verified": True},
+    {"case_id": "zt_025", "source": "增删卜易", "question_type": "爱情", "fortune_level": "大吉", "hexagram_name": "地天泰", "verified": True},
     
     # 健康类
     {"case_id": "zt_026", "source": "增删卜易", "question_type": "健康", "fortune_level": "吉", "hexagram_name": "山天大畜", "verified": True},
@@ -470,17 +470,17 @@ ADDITIONAL_CASES = [
     # 更多混合案例
     {"case_id": "zt_036", "source": "增删卜易", "question_type": "财运", "fortune_level": "平", "hexagram_name": "山风蛊", "verified": True},
     {"case_id": "zt_037", "source": "增删卜易", "question_type": "事业", "fortune_level": "大吉", "hexagram_name": "火雷噬嗑", "verified": True},
-    {"case_id": "zt_038", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "吉", "hexagram_name": "泽山咸", "verified": True},
+    {"case_id": "zt_038", "source": "增删卜易", "question_type": "爱情", "fortune_level": "吉", "hexagram_name": "泽山咸", "verified": True},
     {"case_id": "zt_039", "source": "增删卜易", "question_type": "健康", "fortune_level": "平", "hexagram_name": "地雷复", "verified": True},
     {"case_id": "zt_040", "source": "增删卜易", "question_type": "诉讼", "fortune_level": "吉", "hexagram_name": "风天小畜", "verified": True},
     {"case_id": "zt_041", "source": "增删卜易", "question_type": "财运", "fortune_level": "凶", "hexagram_name": "天水讼", "verified": True},
     {"case_id": "zt_042", "source": "增删卜易", "question_type": "事业", "fortune_level": "平", "hexagram_name": "水地比", "verified": True},
-    {"case_id": "zt_043", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "大吉", "hexagram_name": "雷水解", "verified": True},
+    {"case_id": "zt_043", "source": "增删卜易", "question_type": "爱情", "fortune_level": "大吉", "hexagram_name": "雷水解", "verified": True},
     {"case_id": "zt_044", "source": "增删卜易", "question_type": "健康", "fortune_level": "吉", "hexagram_name": "山雷颐", "verified": True},
     {"case_id": "zt_045", "source": "增删卜易", "question_type": "诉讼", "fortune_level": "平", "hexagram_name": "火泽睽", "verified": True},
     {"case_id": "zt_046", "source": "增删卜易", "question_type": "财运", "fortune_level": "吉", "hexagram_name": "地火明夷", "verified": True},
     {"case_id": "zt_047", "source": "增删卜易", "question_type": "事业", "fortune_level": "凶", "hexagram_name": "泽地萃", "verified": True},
-    {"case_id": "zt_048", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "平", "hexagram_name": "天山遁", "verified": True},
+    {"case_id": "zt_048", "source": "增删卜易", "question_type": "爱情", "fortune_level": "平", "hexagram_name": "天山遁", "verified": True},
     {"case_id": "zt_049", "source": "增删卜易", "question_type": "健康", "fortune_level": "大吉", "hexagram_name": "巽为风", "verified": True},
     {"case_id": "zt_050", "source": "增删卜易", "question_type": "诉讼", "fortune_level": "凶", "hexagram_name": "雷水解", "verified": True},
     
@@ -509,17 +509,17 @@ ADDITIONAL_CASES = [
     {"case_id": "zt_069", "source": "增删卜易", "question_type": "事业", "fortune_level": "大吉", "hexagram_name": "火泽睽", "verified": True},
     {"case_id": "zt_070", "source": "增删卜易", "question_type": "事业", "fortune_level": "凶", "hexagram_name": "水山蹇", "verified": True},
     
-    # 婚姻类（10个）
-    {"case_id": "zt_071", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "大吉", "hexagram_name": "雷水解", "verified": True},
-    {"case_id": "zt_072", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "平", "hexagram_name": "山泽损", "verified": True},
-    {"case_id": "zt_073", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "凶", "hexagram_name": "风雷益", "verified": True},
-    {"case_id": "zt_074", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "吉", "hexagram_name": "泽天夬", "verified": True},
-    {"case_id": "zt_075", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "大吉", "hexagram_name": "天风姤", "verified": True},
-    {"case_id": "zt_076", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "凶", "hexagram_name": "泽地萃", "verified": True},
-    {"case_id": "zt_077", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "平", "hexagram_name": "地风升", "verified": True},
-    {"case_id": "zt_078", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "吉", "hexagram_name": "泽水困", "verified": True},
-    {"case_id": "zt_079", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "大吉", "hexagram_name": "水风井", "verified": True},
-    {"case_id": "zt_080", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "凶", "hexagram_name": "泽火革", "verified": True},
+    # 爱情类（10个）
+    {"case_id": "zt_071", "source": "增删卜易", "question_type": "爱情", "fortune_level": "大吉", "hexagram_name": "雷水解", "verified": True},
+    {"case_id": "zt_072", "source": "增删卜易", "question_type": "爱情", "fortune_level": "平", "hexagram_name": "山泽损", "verified": True},
+    {"case_id": "zt_073", "source": "增删卜易", "question_type": "爱情", "fortune_level": "凶", "hexagram_name": "风雷益", "verified": True},
+    {"case_id": "zt_074", "source": "增删卜易", "question_type": "爱情", "fortune_level": "吉", "hexagram_name": "泽天夬", "verified": True},
+    {"case_id": "zt_075", "source": "增删卜易", "question_type": "爱情", "fortune_level": "大吉", "hexagram_name": "天风姤", "verified": True},
+    {"case_id": "zt_076", "source": "增删卜易", "question_type": "爱情", "fortune_level": "凶", "hexagram_name": "泽地萃", "verified": True},
+    {"case_id": "zt_077", "source": "增删卜易", "question_type": "爱情", "fortune_level": "平", "hexagram_name": "地风升", "verified": True},
+    {"case_id": "zt_078", "source": "增删卜易", "question_type": "爱情", "fortune_level": "吉", "hexagram_name": "泽水困", "verified": True},
+    {"case_id": "zt_079", "source": "增删卜易", "question_type": "爱情", "fortune_level": "大吉", "hexagram_name": "水风井", "verified": True},
+    {"case_id": "zt_080", "source": "增删卜易", "question_type": "爱情", "fortune_level": "凶", "hexagram_name": "泽火革", "verified": True},
     
     # 健康类（10个）
     {"case_id": "zt_081", "source": "增删卜易", "question_type": "健康", "fortune_level": "大吉", "hexagram_name": "火风鼎", "verified": True},
@@ -590,27 +590,27 @@ ADDITIONAL_CASES = [
     {"case_id": "zt_139", "source": "增删卜易", "question_type": "事业", "fortune_level": "平", "hexagram_name": "风地观", "verified": True},
     {"case_id": "zt_140", "source": "增删卜易", "question_type": "事业", "fortune_level": "凶", "hexagram_name": "天地否", "verified": True},
     
-    # 婚姻类（20个）
-    {"case_id": "zt_141", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "大吉", "hexagram_name": "雷泽归妹", "verified": True},
-    {"case_id": "zt_142", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "吉", "hexagram_name": "风火家人", "verified": True},
-    {"case_id": "zt_143", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "平", "hexagram_name": "山泽损", "verified": True},
-    {"case_id": "zt_144", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "凶", "hexagram_name": "泽风大过", "verified": True},
-    {"case_id": "zt_145", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "大吉", "hexagram_name": "地天泰", "verified": True},
-    {"case_id": "zt_146", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "吉", "hexagram_name": "雷水解", "verified": True},
-    {"case_id": "zt_147", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "平", "hexagram_name": "水泽节", "verified": True},
-    {"case_id": "zt_148", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "凶", "hexagram_name": "风雷益", "verified": True},
-    {"case_id": "zt_149", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "大吉", "hexagram_name": "泽天夬", "verified": True},
-    {"case_id": "zt_150", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "吉", "hexagram_name": "天风姤", "verified": True},
-    {"case_id": "zt_151", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "平", "hexagram_name": "地风升", "verified": True},
-    {"case_id": "zt_152", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "凶", "hexagram_name": "泽地萃", "verified": True},
-    {"case_id": "zt_153", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "大吉", "hexagram_name": "水风井", "verified": True},
-    {"case_id": "zt_154", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "吉", "hexagram_name": "泽水困", "verified": True},
-    {"case_id": "zt_155", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "平", "hexagram_name": "天山遁", "verified": True},
-    {"case_id": "zt_156", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "凶", "hexagram_name": "泽火革", "verified": True},
-    {"case_id": "zt_157", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "大吉", "hexagram_name": "雷地豫", "verified": True},
-    {"case_id": "zt_158", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "吉", "hexagram_name": "泽山咸", "verified": True},
-    {"case_id": "zt_159", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "平", "hexagram_name": "火山旅", "verified": True},
-    {"case_id": "zt_160", "source": "增删卜易", "question_type": "婚姻", "fortune_level": "凶", "hexagram_name": "火水未济", "verified": True},
+    # 爱情类（20个）
+    {"case_id": "zt_141", "source": "增删卜易", "question_type": "爱情", "fortune_level": "大吉", "hexagram_name": "雷泽归妹", "verified": True},
+    {"case_id": "zt_142", "source": "增删卜易", "question_type": "爱情", "fortune_level": "吉", "hexagram_name": "风火家人", "verified": True},
+    {"case_id": "zt_143", "source": "增删卜易", "question_type": "爱情", "fortune_level": "平", "hexagram_name": "山泽损", "verified": True},
+    {"case_id": "zt_144", "source": "增删卜易", "question_type": "爱情", "fortune_level": "凶", "hexagram_name": "泽风大过", "verified": True},
+    {"case_id": "zt_145", "source": "增删卜易", "question_type": "爱情", "fortune_level": "大吉", "hexagram_name": "地天泰", "verified": True},
+    {"case_id": "zt_146", "source": "增删卜易", "question_type": "爱情", "fortune_level": "吉", "hexagram_name": "雷水解", "verified": True},
+    {"case_id": "zt_147", "source": "增删卜易", "question_type": "爱情", "fortune_level": "平", "hexagram_name": "水泽节", "verified": True},
+    {"case_id": "zt_148", "source": "增删卜易", "question_type": "爱情", "fortune_level": "凶", "hexagram_name": "风雷益", "verified": True},
+    {"case_id": "zt_149", "source": "增删卜易", "question_type": "爱情", "fortune_level": "大吉", "hexagram_name": "泽天夬", "verified": True},
+    {"case_id": "zt_150", "source": "增删卜易", "question_type": "爱情", "fortune_level": "吉", "hexagram_name": "天风姤", "verified": True},
+    {"case_id": "zt_151", "source": "增删卜易", "question_type": "爱情", "fortune_level": "平", "hexagram_name": "地风升", "verified": True},
+    {"case_id": "zt_152", "source": "增删卜易", "question_type": "爱情", "fortune_level": "凶", "hexagram_name": "泽地萃", "verified": True},
+    {"case_id": "zt_153", "source": "增删卜易", "question_type": "爱情", "fortune_level": "大吉", "hexagram_name": "水风井", "verified": True},
+    {"case_id": "zt_154", "source": "增删卜易", "question_type": "爱情", "fortune_level": "吉", "hexagram_name": "泽水困", "verified": True},
+    {"case_id": "zt_155", "source": "增删卜易", "question_type": "爱情", "fortune_level": "平", "hexagram_name": "天山遁", "verified": True},
+    {"case_id": "zt_156", "source": "增删卜易", "question_type": "爱情", "fortune_level": "凶", "hexagram_name": "泽火革", "verified": True},
+    {"case_id": "zt_157", "source": "增删卜易", "question_type": "爱情", "fortune_level": "大吉", "hexagram_name": "雷地豫", "verified": True},
+    {"case_id": "zt_158", "source": "增删卜易", "question_type": "爱情", "fortune_level": "吉", "hexagram_name": "泽山咸", "verified": True},
+    {"case_id": "zt_159", "source": "增删卜易", "question_type": "爱情", "fortune_level": "平", "hexagram_name": "火山旅", "verified": True},
+    {"case_id": "zt_160", "source": "增删卜易", "question_type": "爱情", "fortune_level": "凶", "hexagram_name": "火水未济", "verified": True},
     
     # 健康类（20个）
     {"case_id": "zt_161", "source": "增删卜易", "question_type": "健康", "fortune_level": "大吉", "hexagram_name": "天泽履", "verified": True},
@@ -891,7 +891,7 @@ def main():
         print(f"  {level}: {count} ({count/len(cases)*100:.1f}%)")
     
     print("\n问事类型分布:")
-    for qtype in ['财运', '事业', '婚姻', '健康', '诉讼']:
+    for qtype in ['财运', '事业', '爱情', '健康', '诉讼']:
         count = type_counts.get(qtype, 0)
         print(f"  {qtype}: {count} ({count/len(cases)*100:.1f}%)")
 
