@@ -780,7 +780,7 @@ ADDITIONAL_CASES = [
     {"case_id": "zt_318", "source": "增删卜易", "question_type": "事业", "fortune_level": "凶", "hexagram_name": "艮为山", "verified": True},
     {"case_id": "zt_319", "source": "增删卜易", "question_type": "事业", "fortune_level": "大凶", "hexagram_name": "坤为地", "verified": True},
     {"case_id": "zt_320", "source": "增删卜易", "question_type": "事业", "fortune_level": "大凶", "hexagram_name": "地水师", "verified": True},
-    {"case_id": "zt_321", "source": "增删卜易", "question_type": "事业", "fortune_level":
+]
 
 def generate_full_cases():
     """生成完整的案例数据"""

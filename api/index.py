@@ -255,7 +255,7 @@ def find_similar_cases(hexagram_name, question_type, limit=3):
     matching = loader.get_cases_by_hexagram(hexagram_name) + loader.get_cases_by_type(question_type)
     
     if len(matching) < limit:
-        matching = cases
+        matching = loader.all_cases
     
     selected = random.sample(matching, min(limit, len(matching)))
     
@@ -275,9 +275,9 @@ def get_cases():
     offset = request.args.get('offset', 0, type=int)
     question_type = request.args.get('type', None)
     
-    filtered = cases
+    filtered = loader.all_cases
     if question_type:
-        filtered = [c for c in cases if c['question_type'] == question_type]
+        filtered = [c for c in loader.all_cases if c['question_type'] == question_type]
     
     total = len(filtered)
     paginated = filtered[offset:offset+limit]
@@ -296,7 +296,7 @@ def get_stats():
     fortune_counts = {}
     type_counts = {}
     
-    for c in cases:
+    for c in loader.all_cases:
         name = c['hexagram']['name']
         hexagram_counts[name] = hexagram_counts.get(name, 0) + 1
         
@@ -308,7 +308,7 @@ def get_stats():
     
     return jsonify({
         'success': True,
-        'total_cases': len(cases),
+        'total_cases': len(loader.all_cases),
         'hexagram_distribution': hexagram_counts,
         'fortune_distribution': fortune_counts,
         'question_type_distribution': type_counts,
