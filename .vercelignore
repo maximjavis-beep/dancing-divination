@@ -1,0 +1,20 @@
+# Unused model files — excluded to keep bundle under 250MB
+model/enhanced_model.pkl
+model/optimized_model.pkl
+model/advanced_question_type_model.pkl
+model/question_type_model.pkl
+model/label_encoders.pkl
+model/hexagram_model.pt
+
+# Training scripts not needed at runtime
+model/train_model.py
+model/cross_validate.py
+model/cross_validation.py
+model/data_analysis.py
+model/question_type_optimizer.py
+
+# Dev artifacts
+venv/
+__pycache__/
+*.pyc
+.DS_Store
