@@ -2,12 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/**/*.py",
+      "src": "api/index.py",
       "use": "@vercel/python"
-    },
-    {
-      "src": "templates/**/*",
-      "use": "@vercel/static"
     },
     {
       "src": "static/**/*",
@@ -16,16 +12,12 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
       "src": "/static/(.*)",
       "dest": "/static/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/templates/index.html"
+      "dest": "/api/index.py"
     }
   ],
   "env": {
