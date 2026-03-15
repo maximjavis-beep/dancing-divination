@@ -63,6 +63,20 @@ if _ml_available:
 def index():
     return render_template('index.html')
 
+@app.route('/api/debug', methods=['GET'])
+def debug():
+    import sys, os
+    return jsonify({
+        'ml_available': _ml_available,
+        'model_loaded': model_loaded,
+        'model_type': type(model).__name__ if model else None,
+        'loader_ok': loader is not None,
+        'python_version': sys.version,
+        'file': __file__,
+        'cwd': os.getcwd(),
+        'sys_path': sys.path[:5],
+    })
+
 @app.route('/api/divine', methods=['POST'])
 def divine():
     """起卦接口"""
