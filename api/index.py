@@ -26,22 +26,29 @@ app = Flask(__name__,
 engine = LiuYaoEngine()
 
 # 优先使用增强版模型，如不存在则使用基础版
-model = EnhancedGBMPredictor()
 try:
+    model = EnhancedGBMPredictor()
     model.load_model()
     print("✅ 增强版模型加载成功")
-except FileNotFoundError:
-    print("⚠️ 增强版模型不存在，使用基础版模型")
-    model = GBMHexagramPredictor()
+except Exception as e:
+    print(f"⚠️ 增强版模型加载失败: {e}，使用基础版模型")
     try:
+        model = GBMHexagramPredictor()
         model.load_model()
-    except:
-        pass
+        print("✅ 基础版模型加载成功")
+    except Exception as e2:
+        print(f"⚠️ 基础版模型加载失败: {e2}")
+        model = None
 
 # 使用懒加载数据加载器
-loader = get_loader()
-model_loaded = True
-print(f"✅ 模型加载成功，数据案例: {len(loader.all_cases)} 个")
+try:
+    loader = get_loader()
+    model_loaded = True
+    print(f"✅ 数据加载成功，案例: {len(loader.all_cases)} 个")
+except Exception as e:
+    print(f"⚠️ 数据加载失败: {e}")
+    loader = None
+    model_loaded = False
 
 @app.route('/')
 def index():
@@ -252,8 +259,10 @@ def divine_with_bazi():
 
 def find_similar_cases(hexagram_name, question_type, limit=3):
     """查找相似案例 - 使用懒加载"""
+    if loader is None:
+        return []
     matching = loader.get_cases_by_hexagram(hexagram_name) + loader.get_cases_by_type(question_type)
-    
+
     if len(matching) < limit:
         matching = loader.all_cases
     
@@ -275,9 +284,9 @@ def get_cases():
     offset = request.args.get('offset', 0, type=int)
     question_type = request.args.get('type', None)
     
-    filtered = loader.all_cases
+    filtered = loader.all_cases if loader else []
     if question_type:
-        filtered = [c for c in loader.all_cases if c['question_type'] == question_type]
+        filtered = [c for c in filtered if c['question_type'] == question_type]
     
     total = len(filtered)
     paginated = filtered[offset:offset+limit]
@@ -296,7 +305,7 @@ def get_stats():
     fortune_counts = {}
     type_counts = {}
     
-    for c in loader.all_cases:
+    for c in (loader.all_cases if loader else []):
         name = c['hexagram']['name']
         hexagram_counts[name] = hexagram_counts.get(name, 0) + 1
         
@@ -308,7 +317,7 @@ def get_stats():
     
     return jsonify({
         'success': True,
-        'total_cases': len(loader.all_cases),
+        'total_cases': len(loader.all_cases) if loader else 0,
         'hexagram_distribution': hexagram_counts,
         'fortune_distribution': fortune_counts,
         'question_type_distribution': type_counts,
