@@ -13,9 +13,14 @@ from liuyao.bazi_hexagram import analyze_bazi_hexagram
 from liuyao.trend_analyzer import analyze_trend
 from liuyao.baihua import generate_full_baihua, get_hexagram_baihua
 
-from model.gbm_predictor import GBMHexagramPredictor
-from model.enhanced_gbm_predictor import EnhancedGBMPredictor
-from model.performance_utils import get_cache, get_loader, cached_predict
+try:
+    from model.gbm_predictor import GBMHexagramPredictor
+    from model.enhanced_gbm_predictor import EnhancedGBMPredictor
+    from model.performance_utils import get_cache, get_loader, cached_predict
+    _ml_available = True
+except Exception as e:
+    print(f"⚠️ ML模块加载失败: {e}")
+    _ml_available = False
 
 app = Flask(__name__, 
     template_folder=os.path.join(os.path.dirname(__file__), '..', 'templates'),
@@ -26,29 +31,33 @@ app = Flask(__name__,
 engine = LiuYaoEngine()
 
 # 优先使用增强版模型，如不存在则使用基础版
-try:
-    model = EnhancedGBMPredictor()
-    model.load_model()
-    print("✅ 增强版模型加载成功")
-except Exception as e:
-    print(f"⚠️ 增强版模型加载失败: {e}，使用基础版模型")
-    try:
-        model = GBMHexagramPredictor()
-        model.load_model()
-        print("✅ 基础版模型加载成功")
-    except Exception as e2:
-        print(f"⚠️ 基础版模型加载失败: {e2}")
-        model = None
+model = None
+loader = None
+model_loaded = False
 
-# 使用懒加载数据加载器
-try:
-    loader = get_loader()
-    model_loaded = True
-    print(f"✅ 数据加载成功，案例: {len(loader.all_cases)} 个")
-except Exception as e:
-    print(f"⚠️ 数据加载失败: {e}")
-    loader = None
-    model_loaded = False
+if _ml_available:
+    try:
+        model = EnhancedGBMPredictor()
+        model.load_model()
+        print("✅ 增强版模型加载成功")
+    except Exception as e:
+        print(f"⚠️ 增强版模型加载失败: {e}，使用基础版模型")
+        try:
+            model = GBMHexagramPredictor()
+            model.load_model()
+            print("✅ 基础版模型加载成功")
+        except Exception as e2:
+            print(f"⚠️ 基础版模型加载失败: {e2}")
+            model = None
+
+    try:
+        loader = get_loader()
+        model_loaded = True
+        print(f"✅ 数据加载成功，案例: {len(loader.all_cases)} 个")
+    except Exception as e:
+        print(f"⚠️ 数据加载失败: {e}")
+        loader = None
+        model_loaded = False
 
 @app.route('/')
 def index():
