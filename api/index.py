@@ -119,12 +119,17 @@ def divine():
     
     # AI 预测（使用混合模型）
     try:
+        if model is None:
+            raise RuntimeError(f"模型未加载 (ml_available={_ml_available}, model_loaded={model_loaded})")
         prediction = model.predict(case, return_components=True)
         # 转换概率格式以兼容前端
         prediction['fortune_probabilities'] = prediction['probabilities']
     except Exception as e:
-        print(f"预测失败: {e}")
+        import traceback
+        err_detail = traceback.format_exc()
+        print(f"预测失败: {err_detail}")
         prediction = generate_random_prediction()
+        prediction['note'] = f'演示模式：{str(e)}'
     
     # 查找相似案例
     similar_cases = find_similar_cases(hexagram.name, question_type, limit=3)
